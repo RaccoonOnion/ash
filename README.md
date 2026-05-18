@@ -23,9 +23,11 @@
 
 The fastest path is TestFlight — no Xcode, no cables, no signing.
 
-> **TestFlight invite:** _link added once Apple finishes processing build 1.4.0+7._
+> **TestFlight invite:** **<https://testflight.apple.com/join/z5vsJM8A>**
 > Requires iPhone 15 Pro or newer on iOS 17+ and a Wi-Fi connection
 > (~1.4 GB for E2B or ~3.7 GB for E4B on first launch).
+> Tap the link on your iPhone — iOS will prompt to install Apple's
+> TestFlight app if you don't have it, then offer the Ash beta.
 
 If you'd rather build from source — to swap models, hack on the RAG pipeline,
 or just see how it works — see [Build & run locally](#build-and-run)
