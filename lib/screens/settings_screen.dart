@@ -548,7 +548,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
   /// Open the GitHub repo in the system browser.
   void _openGitHub() async {
-    final uri = Uri.parse('https://github.com/yaoxiao6/Ash');
+    final uri = Uri.parse('https://github.com/RaccoonOnion/ash');
     if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(

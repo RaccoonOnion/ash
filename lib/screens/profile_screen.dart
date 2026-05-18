@@ -257,7 +257,7 @@ class ProfileScreen extends StatelessWidget {
   void _shareLink(BuildContext context) async {
     final params = ShareParams(
       text: 'Check out Ash — an offline survival assistant.\n'
-          'https://github.com/yaoxiao6/Ash',
+          'https://github.com/RaccoonOnion/ash',
       subject: 'Ash — offline survival AI',
     );
     await SharePlus.instance.share(params);
