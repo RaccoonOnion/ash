@@ -1,0 +1,251 @@
+{
+  "packId": "food:-safety-and-poisoning",
+  "packName": "Food: Safety & Poisoning",
+  "propositions": [
+    {
+      "question": "What should I do first if I start feeling sick while eating?",
+      "answer": "If you begin to feel sick as you eat something, stop eating it immediately.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "When should I go to the hospital for food poisoning?",
+      "answer": "Go to a hospital or seek emergency medical help immediately if you have: trouble breathing, swollen tongue, difficulty swallowing, severe abdominal pain, feeling dizzy and lightheaded, double vision or trouble moving parts of your body, severe dehydration, severe diarrhea, vomiting for extended periods of time, vomiting blood, severe headache, high fever that does not break, maroon or black stool or a lot of blood in your stool, feeling like your heart is pounding, or if the food poisoning is from eating mushrooms or shellfish.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "When should I see a doctor (not ER) for food poisoning symptoms?",
+      "answer": "Make an appointment with your doctor if: severe diarrhea lasts for more than 3 days, frequent vomiting lasts for more than 2 days, you see blood in your stool, you are on diuretics and have diarrhea/nausea/vomiting, or you have a fever over 101 degrees F (38 degrees C).",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I contact Poison Control if I think I've been poisoned?",
+      "answer": "If you suspect a poisoning, contact Poison Control. Call Poison Control at 1-800-222-1222 or visit https://www.poison.org/ for confidential help. If you ate or drank something you think is making you sick, think back up to 5 days and try to remember what the food or water was. If possible, do not throw that food item away in case it needs testing at a lab.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "What are the symptoms of food poisoning?",
+      "answer": "Food poisoning symptoms can begin hours or days after consuming contaminated food or drink. Symptom timing and severity vary depending on the food, the amount consumed, and the person who is sick. Symptoms may include: abdominal pain, diarrhea, fever, loss of appetite, nausea, vomiting, and weakness and fatigue. Food poisoning may affect one person or a whole group of people who were exposed to the contaminated food or drink.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "What should I eat while I still have food poisoning symptoms?",
+      "answer": "You may vomit after you eat or lose your appetite for a short time. Avoid solid foods and dairy products until the vomiting and diarrhea have passed. In some cases, over-the-counter medicines such as Imodium (loperamide) and Pepto-Bismol or Kaopectate (bismuth subsalicylate) may help relieve diarrhea, but anti-diarrhea medications are not always recommended as they slow your body's process of getting rid of what is making you sick. If you have bloody diarrhea or fever - signs of bacterial or parasitic infection - do not use over-the-counter medicines to treat diarrhea. See a doctor for treatment.",
+      "sectionPath": "During (React) > While The Symptoms of Food Poisoning Are Still Happening:",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What should I drink when I have food poisoning?",
+      "answer": "Replacing lost fluids and electrolytes is the most important treatment for food poisoning. If vomiting is a problem, try sipping small amounts of clear liquids. Most adults with food poisoning can replace fluids and electrolytes with liquids such as water, fruit juices diluted with water, sports drinks, and broths. Eating saltine crackers can also help replace electrolytes.",
+      "sectionPath": "During (React) > Drink Plenty of Fluids",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What should I eat when I start feeling better after food poisoning?",
+      "answer": "Try bland foods such as crackers, toast, and bananas. Avoid spicy foods, fried foods, dairy, and foods that are high in fat and sugar. Drink plenty of fluids but avoid milk or caffeinated beverages. When your appetite returns, you can usually go back to eating your normal diet, even if you still have diarrhea.",
+      "sectionPath": "During (React) > Once you are feeling better, ease into eating and drinking again.",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "Who is at higher risk for food poisoning?",
+      "answer": "Children and the elderly are most likely to get food poisoning. You may also be at higher risk if you have a chronic medical condition such as kidney disease or diabetes, are pregnant, have recently traveled to areas outside the United States (where you may have had greater exposure to germs), or have a weakened immune system (which could be caused by drugs taken after an organ transplant, certain chemotherapy medicines, or infection with HIV).",
+      "sectionPath": "During (React) > Once you are feeling better, ease into eating and drinking again.",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How do I treat a child with food poisoning?",
+      "answer": "If your child has food poisoning, give your child an oral rehydration solution - such as Pedialyte, Naturalyte, Infalyte, and CeraLyte - as directed. Talk with a doctor about giving these solutions to your infant. Infants should drink breast milk or formula as usual. Some over-the-counter medicines such as Imodium (loperamide) and Pepto-Bismol or Kaopectate (bismuth subsalicylate) to treat diarrhea can be dangerous for infants and children. Talk with a doctor before giving your child an over-the-counter medicine.",
+      "sectionPath": "During (React) > For Kids",
+      "phase": "Response",
+      "audience": "Kids"
+    },
+    {
+      "question": "What symptoms in my pet mean I should rush to the vet?",
+      "answer": "If you see these symptoms in your pet or farm animal, call or take them to the nearest veterinarian: excessive vomiting, excessive drooling, shaking, seizures, uncontrolled urination, body tremors, bloated stomach, extreme fatigue, extreme thirst, or severe diarrhea. It is VERY important to identify what the animal ate or chewed. If possible, take some of the food, the container, the label, or some of the vomit or diarrhea in a plastic bag with you to the veterinary hospital. You can call the ASPCA Animal Poison Control at (888) 426-4435 for assistance.",
+      "sectionPath": "During (React) > For Pets",
+      "phase": "Response",
+      "audience": "Pets"
+    },
+    {
+      "question": "Should I try to make my pet vomit if they ate something bad?",
+      "answer": "Avoid trying to make them vomit unless directed by a veterinarian. Some animals, such as rabbits, rodents, and horses, may be unable to vomit. DO NOT make the animal vomit if they are having trouble breathing, are having seizures, are abnormally depressed or over-excited, are unconscious, have a very slow heartbeat, or swallowed something caustic, acidic, or petroleum-based. DO NOT attempt to make cats vomit.",
+      "sectionPath": "During (React) > Should I Make The Animal Vomit?",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What should I NOT use to make my dog vomit?",
+      "answer": "If you feel you must make the animal vomit, DO NOT use these techniques: salt, olive oil, ipecac, mustard, dishwashing liquid, milk, or engaging the animal's gag reflex with your finger or a soft object. Dogs may vomit if given 1 teaspoon of 3% hydrogen peroxide per 5 kg of body weight. This may be repeated in 15 minutes, up to 3 times. Too much hydrogen peroxide may result in additional poisoning. Hydrogen peroxide will cause foaming at the mouth. If any food, plant, or chemical gets on your animal, wash their fur, feathers, scales, and feet - Dawn dishwashing detergent is considered safe for most animals.",
+      "sectionPath": "During (React) > Should I Make The Animal Vomit?",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How should older adults and people with weakened immune systems rehydrate after food poisoning?",
+      "answer": "Older adults, adults with a weakened immune system, and adults with severe diarrhea or symptoms of dehydration should drink oral rehydration solutions, such as Pedialyte, Naturalyte, Infalyte, and CeraLyte. Oral rehydration solutions are liquids that contain glucose and electrolytes.",
+      "sectionPath": "During (React) > For Older Adults",
+      "phase": "Response",
+      "audience": "Older Adults"
+    },
+    {
+      "question": "What are the 4 essential food safety steps?",
+      "answer": "The 4 food safety steps are: 1) Clean cooking tools and foods - start with clean hands, utensils, and cooking space; wash fruits and vegetables; do NOT wash raw meat, poultry, or fish before cooking. 2) Separate high-risk foods - keep raw meat, poultry, seafood, and eggs away from other foods when shopping, in the fridge, and during storage. 3) Cook foods thoroughly to safe internal temperatures. 4) Chill and store food appropriately - bacteria multiply rapidly in the 'Danger Zone' between 40 degrees F and 140 degrees F (4.4 degrees C - 60 degrees C).",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "What are the safe internal cooking temperatures for different meats?",
+      "answer": "Whole cuts of beef, veal, lamb, and pork, including fresh ham: 145 degrees F (63 degrees C). Fish with fins: 145 degrees F (63 degrees C). Ground meats such as beef and pork: 160 degrees F (71 degrees C). All poultry, including ground chicken and turkey: 165 degrees F (74 degrees C). Leftovers and casseroles: 165 degrees F (74 degrees C).",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "What temperature should my refrigerator and freezer be set to?",
+      "answer": "Keep your refrigerator at 40 degrees F (4.4 degrees C) or below and your freezer at 0 degrees F (-17 degrees C) or below. Bacteria multiply rapidly at room temperature or in the 'Danger Zone' between 40 degrees F and 140 degrees F.",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "How long can cooked food sit out before it needs to be refrigerated?",
+      "answer": "Refrigerate cooked foods within 2 hours of being cooked. If the food is exposed to temperatures above 90 degrees F (32 degrees C), refrigerate it within 1 hour.",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "How long should I wash my hands before handling food?",
+      "answer": "Wash hands with warm, soapy water for 20 seconds before you start to handle food. Always use clean disposable gloves if your hands have any kind of skin abrasion or infection.",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "How should I wash fruits and vegetables?",
+      "answer": "Gently rub produce while holding it under plain running water - using soap, detergent, or bleach to clean produce is not recommended. Use a clean vegetable brush to scrub firm produce such as melons and cucumbers. Dry produce with a clean cloth or paper towel to further reduce bacteria. Wash or scrub fruits and vegetables under running water even if you do not plan to eat the peel, since germs on the peel can get inside when you cut them. Cut away any damaged or bruised areas. Refrigerate cut, peeled, or cooked produce within 2 hours (or within 1 hour if exposed to temperatures above 90 degrees F).",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "Which foods are considered high-risk for food poisoning?",
+      "answer": "High-risk foods include: raw and cooked meat such as chicken and minced meat; dairy products; eggs and egg products; small meat products such as ham, bacon, and salami; seafood; cooked rice and pasta; lettuce and other leafy greens; prepared salads such as coleslaws, pasta salads, and rice salads; prepared fruit salads; raw flour; sprouts; and raw milk and raw milk products.",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "How should I organize foods on the shelves of my refrigerator?",
+      "answer": "When stocking your refrigerator or freezer, arrange foods by cooking temperature. Foods with lower cooking temperatures should be at the top, while foods that need to be cooked to higher temperatures should be stored at the bottom, so any bacteria that leaks from food above gets killed when you cook the food below. From top shelf to bottom: ready-to-eat foods, vegetables (cooked to 135 degrees F / 57 degrees C), whole meats and seafood (145 degrees F / 63 degrees C), ground or mechanically tenderized meats (155 degrees F / 68 degrees C), and poultry, casseroles, and stuffed pastas (165 degrees F / 74 degrees C).",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "How long can I store eggs in the refrigerator?",
+      "answer": "Only buy refrigerated eggs if you are in the U.S., Japan, Australia, or some Scandinavian countries. Refrigerate promptly and use within 3 weeks. Refrigerate eggs within 2 hours. Use cooked eggs within one week. Use frozen eggs within a year. When packing cooked eggs for work, school, or a picnic, pack them with an ice pack, cold drinks, or ice to keep them cold.",
+      "sectionPath": "Before (Prepare) > Storing Eggs",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How should eggs be cooked to be safe to eat?",
+      "answer": "Eggs are safest to eat if they are cooked until yolk and white are firm. Undercooked eggs, where the yolk is runny, carry an additional risk of contamination, and pregnant people are advised to avoid them. Egg dishes, egg-based sauces, and custards should reach 160 degrees F (71 degrees C) when cooking. Uncooked eggs should be stored at or below 41 degrees F (5 degrees C).",
+      "sectionPath": "Before (Prepare) > Eating Eggs",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How can I tell if an egg has gone bad?",
+      "answer": "Discard eggs past the expiration date or with any of these characteristics: Discoloration - if the yolk or white has any discoloration when cracked open, the egg is no good (discoloration indicates bacterial growth). Smell - if your eggs look fine but have an off or sulfuric smell, they are bad. Shell problems - cracks in the shell, a powdery substance on the shell, or a shell that looks or feels slimy.",
+      "sectionPath": "Before (Prepare) > Signs that Eggs are Unsafe to Eat",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How can I tell if meat has gone bad?",
+      "answer": "Signs that meat is unsafe to eat: Smell - spoiled meat has a distinct, pungent smell that will make your face scrunch up. Texture - spoiled meats can be sticky or slimy to the touch. Color - rotten meats undergo a slight change in color. Poultry will turn a bluish-white to yellow color. Raw pork is a grayish-pink. Ground beef ranges from bright red to purplish-red to brownish-red. Any meat turned green or greenish-brown is unsafe to eat.",
+      "sectionPath": "Before (Prepare) > Signs That Meat is Unsafe to Eat:",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What are the most common foodborne illnesses?",
+      "answer": "Common foodborne illnesses include: E. coli (often from vegetables, sprouts, ground beef, chicken, and raw milk); Norovirus, also called stomach flu (often from leafy greens, fresh fruits, and shellfish like oysters); Salmonella (often from meat, poultry, and egg products); Campylobacter (often from raw milk, eggs, raw beef, poultry, cake icing, and water); and Hepatitis A (often from shellfish, raw vegetables, fruit such as berries, and salads). They spread by eating contaminated foods, touching contaminated surfaces, contact with infected people, and contaminated drinking water.",
+      "sectionPath": "Before (Prepare) > Most Common Foodborne Illnesses",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How can I avoid getting sick from food when traveling internationally?",
+      "answer": "Get vaccinated 6-8 weeks before traveling - the CDC sends updates about unsafe countries and recommended vaccines. Prepare your body by staying in shape, eating healthy, and exercising. Drink bottled water and avoid public water fountains; in countries where visitors often get sick, don't even use tap water to brush your teeth. Eat fruits and vegetables you can peel - thick-skinned produce like bananas, oranges, and watermelons are safer than thin-skinned fruits like berries. Avoid high-risk foods like cold meat platters, cheese, buffet foods, and larger fish or shellfish. Most wine, beer, coffee, and tea are safe.",
+      "sectionPath": "Before (Prepare) > Most Common Foodborne Illnesses",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "When should kids wash their hands?",
+      "answer": "Kids should wash their hands: before handling food, before eating, immediately after touching something dirty or possibly contaminated (like raw meat), and immediately after using the bathroom or touching moist parts of their body. Use warm water with soap for 20 seconds - have them sing a 20-second song like the alphabet song to time it. If warm water and soap aren't available, cold water with soap or antibacterial can be used until warm water is available. Even rinsing with water alone is better than skipping hand washing entirely.",
+      "sectionPath": "Before (Prepare) > For Kids",
+      "phase": "Preparation",
+      "audience": "Kids"
+    },
+    {
+      "question": "What food safety rules should I teach kids about sharing and germs?",
+      "answer": "If something touches your mouth, that's your item for the meal and will have your germs on it - avoid sharing utensils, plates, cups, or straws with others. The 5-second rule is a myth: germs contaminate food regardless of how long it's been on the ground. If you have to sneeze, cough, blow your nose, or burp, direct it away from other people and food, cover your mouth and nose, and wash your hands afterward.",
+      "sectionPath": "Before (Prepare) > For Kids",
+      "phase": "Preparation",
+      "audience": "Kids"
+    },
+    {
+      "question": "What should I teach kids about eating only safe foods?",
+      "answer": "Teach kids to never participate in food challenges like the cinnamon challenge or honey challenge - these can make them ill and lead to serious poisoning or death. If it is not food, do not eat it - Tide Pods, plastics, and other non-food items can seriously hurt you. Tell a trusted adult right away if you or someone else eats something that is not food. If the food or drink did not come from someone you trust, don't eat it. If food tastes bad or rotten, spit it out and tell an adult. Make sure kids with allergies carry their EpiPen and know how to use it.",
+      "sectionPath": "Before (Prepare) > For Kids",
+      "phase": "Preparation",
+      "audience": "Kids"
+    },
+    {
+      "question": "Is it safe to feed my dog or cat raw meat?",
+      "answer": "Dogs and cats are natural carnivores that can digest raw meat, but that does not mean raw meat is good for them. Uncooked meat can harbor harmful bacteria such as salmonella, E. coli, and Listeria, which cause foodborne illnesses that can make your dog very sick. The CDC and animal nutrition experts do not recommend feeding a raw food diet for dogs. Instead, choose a regular balanced dog food diet with all the nutrients needed to keep your pet healthy.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "What common foods are toxic to pets?",
+      "answer": "Common foods that may make animals sick include: acorns, alcohol, apple seeds, apricot pits, avocado, cherry pits, caffeine, candy containing xylitol, chicken bones, chocolate (dogs, cats, and ferrets), chives, coffee, garlic, grapes/raisins, gum (can block the stomach), hops, macadamia nuts, moldy food, mushrooms, mustard seeds, onions, peach pits, potato, rhubarb leaves, salt, tomato, walnuts, and yeast dough.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "What non-food toxic substances should I keep away from pets?",
+      "answer": "Rat and weed poisons can kill all types of animals. Do not allow animals to ingest gasoline, oil, or antifreeze, and wash their paws or hooves if they walk in these chemicals. The list of plants and flowers toxic to animals is long. Store food and chemicals in a safe location where animals cannot get to them. When outside, do not allow animals to drink from muddy or standing water on the ground, as toxins may have washed into the water.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I recover from food poisoning at home?",
+      "answer": "Foodborne illness often improves on its own within a few days. To make recovery smoother: sip liquids such as a sports drink or water to prevent dehydration - drinking fluids too quickly can worsen nausea and vomiting, so take small frequent sips over a couple of hours instead of drinking a large amount at once. Avoid anti-diarrheal medications, as they may slow your body's removal of organisms or toxins from your system. If in doubt, check with your doctor about your particular situation.",
+      "sectionPath": "After (Recover)",
+      "phase": "Recovery",
+      "audience": "Adults"
+    }
+  ]
+}

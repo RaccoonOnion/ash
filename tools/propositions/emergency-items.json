@@ -1,0 +1,272 @@
+{
+  "packId": "emergency-items",
+  "packName": "Emergency Items",
+  "propositions": [
+    {
+      "question": "What should I do about emergency supplies during an emergency?",
+      "answer": "Prepare emergency supplies before the emergency. Tap on the \"Prepare\" toggle for emergency item lists.",
+      "sectionPath": "During (React)",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How do I plan a first aid kit and medical supplies for my household?",
+      "answer": "Be prepared to treat moderate injuries and make a plan for life-sustaining medications.\n\nPrepare an emergency medical plan based on the needs of your household. If anyone in the household needs life-sustaining medication, ensure it will be available.\n\nConsider how you normally use medical supplies:\n- Do you have a good supply of medications for allergies and minor illness?\n- What activities are likely to cause injury in your household? Sports, some hobbies, home maintenance, cooking, and others all have some risks. Anticipate what supplies you might need to mitigate those risks.\n- Make a list of frequently used medical items based on your household's medical history.\n- Water will also be needed for taking medications and cleaning wounds.\n\nOnce you have a good plan for meeting the individual needs of your household, consider purchasing or building some first aid kits.",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "What should I look for when buying a pre-made first aid kit?",
+      "answer": "Think about how you will use your first aid kit and what kind of treatment you can give before making a selection. Factors like the contents, size, weight, complexity, and cost should be considered.\n\nAt a minimum, the kit should include:\n- Gloves\n- A CPR mask\n- Bandages\n- Antiseptic\n- Medical tape\n- Aspirin\n- Benadryl\n\nThink about what level of emergency you are comfortable responding to. Check the inventory list to make sure the contents of the kit will meet your expectations if you need it in an emergency.\n- If your kit comes with pre-packaged medications, be aware of their expiration dates and replace them from bulk storage when appropriate.\n- You may see very advanced or complex medical kits available for purchase. Do not equip yourself with tools that you will not be able to use confidently in an emergency.",
+      "sectionPath": "Before (Prepare) > If You Are Purchasing a Pre-Made First Aid Kit",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How do I build my own first aid kit?",
+      "answer": "If you have some medical training, it may be less expensive and more effective to build your own first aid kit. You can tailor the tools and supplies to your training and choose a container familiar to you. Remember to clearly label it and keep it somewhere obvious, in case you need to send someone to get it while you treat a patient. Consider including items like nasopharyngeal airways, neck collars, bag-valve-mask devices, Narcan, tourniquets, and other potentially lifesaving medical tools in accordance with your level of training.\n\nExample First Aid Kit List (appropriate for a home of 2-4 people with a medium expectation of injury from yardwork, home maintenance, and a hobby like cooking or welding):\n- Sterile or antiseptic wound rinse\n- Bandaids, multiple sizes\n- Antibiotic ointment\n- Roll gauze\n- Small splints\n- 4\"x4\" sterile gauze\n- Medical tape\n- Burn cream\n- Cortisone cream\n- Ibuprofen\n- Aspirin\n- Benadryl\n- Allergy medications\n- Sunscreen\n- Sunburn cooling spray",
+      "sectionPath": "Before (Prepare) > If You Are Preparing Your Own First Aid Kit",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How much food should I store for an emergency, and what types are best?",
+      "answer": "Around 2,500 calories per person, per day. Consider storing at least a two-week supply of food for each member of your family. If you are unable to store this quantity, store as much as you can. Consider the nutritional density and shelf stability of the items you choose to store.\n\nConsider how you normally use food:\n- You will need to plan a way to prepare and eat it, and a way to wash your dishes. Do not forget a non-electric can opener!\n- If you do a lot of hard work or exercise, you will need more calories per day.\n- Water will also be needed for food preparation and hygiene.\n- Dehydrated foods will use more water to prepare than canned foods.\n\nBuying commercially prepared, shelf-stable items is an excellent option. Foods like canned corn, beans, rice, pasta, canned sauces, soup mixes, trail mix, and chocolate are readily available and long-lasting. Consider stocking up on extra shelf-stable ingredients every time you are at the grocery store. Some stores also sell prepared dehydrated meals that last a very long time. Consider the cost per calorie and space per calorie of what you choose to store.",
+      "sectionPath": "Before (Prepare) > If You Are Preparing Your Own First Aid Kit",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How do I properly store shelf-stable food and bulk dried goods?",
+      "answer": "- Keep the food in a cool, dry, secure place.\n- Use and replenish your stored food as part of your normal meal preparation to prevent expiration.\n- Keep food in its original container.\n- Store bottled water in the original sealed container, and observe the end or \"use by\" date.\n\nTip: Take advantage of the bulk section of your local grocery store for large amounts of dried foods. Bulk containers made of plastic or glass are appropriate for storing oats, rice, beans, pasta, nutritional yeast, and other items.\n\nPrepare Containers for Bulk Food Storage:\nClean the container inside and outside with dish soap and water, then sanitize:\n1. Add a solution of 1 teaspoon of non-scented liquid household chlorine bleach to a quart (1/4 gallon) of water.\n2. Swish the sanitizing solution in the bottle so that it touches all surfaces.\n3. After sanitizing the bottle, thoroughly rinse out the sanitizing solution with clean water.",
+      "sectionPath": "Before (Prepare) > If You Are Storing Shelf-Stable Food",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How much water should I store, and how do I plan for it?",
+      "answer": "One gallon per person, per day. Consider storing at least a two-week supply of water for each member of your family. If you are unable to store this quantity, store as much as you can.\n\nConsider how you normally use water:\n- A normally active person needs to drink at least two quarts (half-gallon) of water each day.\n- People in hot environments, children, nursing mothers, and ill people will require even more.\n- Water will also be needed for food preparation and hygiene.\n\nBuying commercially bottled water is recommended by experts. But, you can easily and safely store water in the appropriate reusable containers.",
+      "sectionPath": "Before (Prepare) > If You Are Storing Shelf-Stable Food",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How should I store commercial bottled water?",
+      "answer": "- Keep bottled water in its original container, and do not open it until you need to use it.\n- Store bottled water in the original sealed container, and observe the end or \"use by\" date.",
+      "sectionPath": "Before (Prepare) > If You Are Storing Commerical Water Bottles",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What containers are safe for storing my own emergency water?",
+      "answer": "- Experts suggest using food-grade water storage containers. You can find these at most surplus or camping supplies stores.\n- If you decide to re-use storage containers, choose two-liter plastic soft drink bottles that can be cleaned.\n- Do not use plastic jugs or cardboard containers that have had milk or fruit juice in them. They leak and are hard to clean and may have leftover bacteria from the sugary drink.\n- Do not use glass containers, because they are heavy and may break.",
+      "sectionPath": "Before (Prepare) > If You Are Preparing Your Own Containers of Water",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How do I clean and sanitize water storage containers before filling?",
+      "answer": "- Clean the bottle inside and outside with dish soap and water.\n\nSanitize plastic drinking bottles:\n1. Add a solution of 1 teaspoon of non-scented liquid household chlorine bleach to a quart (1/4 gallon) of water.\n2. Swish the sanitizing solution in the bottle so that it touches all surfaces.\n3. After sanitizing the bottle, thoroughly rinse out the sanitizing solution with clean water.",
+      "sectionPath": "Before (Prepare) > If You Are Preparing Your Own Containers of Water",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How do I fill and store my own emergency water containers?",
+      "answer": "- Fill the bottle to the top with regular tap water. If your water utility company treats your tap water with chlorine, you do not need to add anything else to the water to keep it clean.\n- If the water you are using comes from a well or is from a water source that is not treated with chlorine, add two drops of non-scented liquid household chlorine bleach to each gallon of water.\n- Tightly close the container using the original cap. Be careful not to contaminate the cap by touching the inside of it with your fingers.\n- Write the date on the outside of the container so that you know when you filled it. Store in a cool, dark place.\n- Replace the water every six months if not using commercially bottled water.\n\nWater Filters: There are many portable water filters designed for recreational use that can help provide drinking water in an emergency. Consider storing a portable water filter with your long-term water storage.",
+      "sectionPath": "Before (Prepare) > If You Are Preparing Your Own Containers of Water",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How should I store paper and digital copies of important documents?",
+      "answer": "Prepare paper copies: Store important documents in a waterproof bag or container in or near your go-bag.\n\nPrepare digital copies: Store in a secure cloud or digital space.",
+      "sectionPath": "Before (Prepare) > If You Are Preparing Your Own Containers of Water",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "Which important documents should I gather for an emergency?",
+      "answer": "- Identification: passports, driver's licenses, and other personal identification documents\n- Insurance policies: health and property insurance policy numbers\n- Personal records: birth, marriage, divorce, adoption, and death certificates\n- Social Security cards\n- Property documents: leases, deeds, mortgages, and other related records (home and auto titles, etc.)\n- Financial documents: pay stubs, bank statements, retirement statements, safe deposit box keys\n- Debit card and credit card numbers\n- Medical records: prescriptions, copies of health insurance cards, health provider contact information\n- Keepsakes: family photos and other meaningful mementos",
+      "sectionPath": "Before (Prepare) > Important Documents List",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What is a Go-bag and what should I pack in it?",
+      "answer": "A Go-bag is your personal and quickly accessible bag of emergency items in case you have to evacuate in a disaster. A Go-bag should be prepared for each member of your family. Any backpack or bag can work as a Go-bag, and all items should be tailored to your specific needs and environment.\n\nRecommended items:\n- Emergency blanket\n- Change of clothes (season-specific)\n- Poncho\n- Water bottle and personal water purification tools\n- Food\n- Flashlight\n- Headlamp\n- Whistle\n- Compass\n- Map of your area\n- Glow sticks\n- Matches\n- Cell phone charger and cable\n- First aid kit\n- Bug spray\n- Hygiene items\n- Multitool\n- Knife\n- Duct tape\n- Paracord or rope\n- Work gloves\n- Dust mask\n- Cash\n- Important documents\n- Prescription medication",
+      "sectionPath": "Before (Prepare) > Important Documents List",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What should be in a full survival kit for my home?",
+      "answer": "Tailor your survival kit for your household's needs. Your survival kit should contain items your household would need to survive if there was a loss of electricity, running water, or other disaster situation. Store your survival kit in a cool, dry place. Be sure to update the kit with new needs and check the expiration date on the items annually.\n\nItems Recommended for a Survival Kit:\n- Battery-powered or hand-crank radio and a NOAA Weather Radio with tone alert\n- Flashlight\n- First aid kit\n- Extra batteries\n- Whistle (to signal for help)\n- Dust mask (to help filter contaminated air)\n- Plastic sheeting and duct tape (to shelter in place)\n- Moist towelettes, garbage bags, and plastic ties (for personal sanitation)\n- Wrench or pliers (to turn off utilities)\n- Manual can opener (for food)\n- Local maps\n- Cell phone with chargers and a backup battery\n- Masks (for everyone ages 2 and above), soap, hand sanitizer, disinfecting wipes\n- Prescription medications\n- Non-prescription medications such as pain relievers, anti-diarrhea medication, antacids or laxatives\n- Prescription eyeglasses and contact lens solution\n- Infant formula, bottles, diapers, wipes and diaper rash cream\n- Cash or traveler's checks\n- Important family documents in a waterproof, portable container\n- Sleeping bag or warm blanket for each person\n- Complete change of clothing appropriate for your climate and sturdy shoes\n- Fire extinguisher\n- Matches in a waterproof container\n- Feminine supplies and personal hygiene items\n- Mess kits, paper cups, plates, paper towels, and plastic utensils\n- Paper and pencil\n\nYour local emergency manager may be able to help if you need assistance obtaining any of the items needed for your survival kit.",
+      "sectionPath": "Before (Prepare) > Important Documents List",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What does it mean to be '3 Days Ready' for evacuation?",
+      "answer": "Being \"3 Days Ready\" means you can be away from your home, job, and neighborhood for at least 3 days. You may stay in a shelter, hotel, or with someone outside the affected area. This is an extreme situation and will likely bring many emotions. Taking action ahead of time can help you stay calm and confident during an evacuation. While it is best to be self-sufficient for longer than 3 days, this is a good starting benchmark.",
+      "sectionPath": "Before (Prepare) > Important Documents List",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What daily essentials and comfort items should I plan for a 3-day evacuation?",
+      "answer": "Daily essentials:\n- 3 meals per day\n- 1 gallon of water per person per day\n- Medications\n- Clothes\n- Hygiene products\n\nEmotional and mental health needs:\n- Comfort items that make you feel happy or safe\n- Evacuating: favorite shirt, blanket, small toy, moist wipes\n- Staying put: stuffed animals, comfort foods, favorite books, notebooks, drawing supplies\n- Do not include drugs or weapons as comfort items\n\nPet Comfort Items:\n- Comfortable travel crate or dome crate\n- Martingale collar\n- Blanket or bedding with familiar scents\n- Long-lasting chews\n- Feliway or pheromone spray, diffuser, or scented things (cat and dog specific)\n- Your t-shirt or other soft item with your scent\n- Animals feel safer in enclosed, familiar spaces\n\nTransportation and Finances:\n- Determine if you will use your own vehicle or public transit\n- Keep enough cash for 3 days of expenses in case you cannot access your supplies",
+      "sectionPath": "Before (Prepare) > Important Things to Plan",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What's on the main 3-Day Ready supplies checklist?",
+      "answer": "Main 3-Day Ready Supplies:\n- Extra medications (coordinate with your doctor)\n- Weather-appropriate clothing\n- Comfort items\n- Entertainment such as books, cards, drawing supplies, or portable games\n- Mobility devices if needed\n- Personal protective equipment such as medical gloves and N95 masks\n- Pet supplies including 3 days of food, medications, and collapsible bowls in a secure bag\n- Portable chargers for electronics, preferably solar-powered\n\nAccessibility and Disability Considerations:\n- Extra mobility devices such as canes, walkers, or foldable rollators stored in an accessible location\n- For assistive devices such as text-to-speech: all cables and accessories, plus offline availability in case of no internet\n\nIdentification and Insurance Documentation:\n- Physical copies, pictures, and originals of passport, government-issued ID, and Social Security or Social Welfare card\n- Photos of important insured items. You can take a video of the inside of your home and narrate the items that you have.\n- Digital backups of all documents and photos on a portable thumb drive or hard drive stored in your Go Bag and in a secure cloud account\n\n3-Days Ready Check List:\n- 3 to 5 days of food\n- 3 to 5 days of medications\n- 1 gallon of water per person per day\n- Extra clothes and hygiene supplies\n- Comfort items\n- Entertainment items\n- Supplies for pets\n- Mobility devices\n- Physical copies of important documents\n- Pictures or digital backups of documents\n- Extra chargers",
+      "sectionPath": "Before (Prepare) > Important Things to Plan",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What does '2 Weeks Ready' mean and what should I plan for?",
+      "answer": "Being \"2 Weeks Ready\" means you are ready to stay in one place, such as your home, for 2 weeks during an extreme situation without going to stores or your usual places. You may also be traveling or on vacation when an emergency happens and be stuck in an unfamiliar place. Preparing ahead of time will help you stay safe, healthy, and calm.\n\nKey Things to Plan For:\n1. Food + Water: How much food and water will your household need for 2 weeks? Use a food calculator to figure out how much food to stock.\n2. Hygiene + Waste: Washing hands, bathing, using the toilet, and disposing of waste safely.\n3. Supplies at Home + Other Places: Whether you will have essentials with you if traveling. A safe, accessible place to store your items.\n4. Cannot Refresh Supplies: If you could not go to the grocery store for 2 weeks or more, what would your household need?\n5. Power + Alternatives: Think about what you plug in or turn on. Do you have a way to power those if the electricity goes out? List non-electric backups you can use.\n6. Staying Sane + Connected to Others: How will you destress? Plan a few ways to stay in touch with loved ones and have a few options to entertain yourself and others.",
+      "sectionPath": "Before (Prepare) > Important Things to Plan",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How do I shelter in place at home during a long emergency?",
+      "answer": "- If you cannot evacuate, gather everyone and supplies in a safe indoor room with no outside-access windows or doors.\n- Listen to local authorities for guidance on airflow safety.\n- Avoid creating a space where air cannot flow at all, which could cause suffocation.\n\nFor nuclear or hazardous materials emergencies:\n- Be ready to seal the door with plastic wrap and duct tape if needed to keep fallout out.\n- In apartments or condos, choose a space with enough room to move around and access to a bathroom or smaller separate space.",
+      "sectionPath": "Before (Prepare) > Important Things to Plan",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How do I manage hygiene and bathing during a 2-week shelter-in-place?",
+      "answer": "Consider where waste will go if you cannot flush or remove trash easily. Think about:\n- If smells will travel up or down between floors\n- If you have a private outdoor space\n- If you have direct outdoor access or live in a larger building\n- If you can leave waste outside your entryway\n- How much storage space you have for waste\n\nBathing if you do not have clean running water:\n- Use sponge bathing wipes or wet wipes\n- Try waterless shampoo\n\nWashing your hands - do this before, during and after preparing food; before and after eating; before and after caring for someone sick with vomiting or diarrhea; before and after treating a cut or wound; after using the toilet; after changing diapers; after blowing your nose, coughing or sneezing; after touching an animal, animal feed or animal waste; after handling pet food or pet treats; after touching garbage. Hand sanitizer works best on clean hands, does not kill all germs, and will not remove chemicals or toxins.\n\nIf you cannot flush: Use an emergency toilet with a secure lid to reduce smells and disease risk.\n\nIf you cannot go outside: Put a tarp inside your bathtub or shower. If in a building with no direct outdoor access, place a tarp just outside your main door.\n\nToilet Paper Replacements:\n- Cut old t-shirts into small squares or rectangles for wiping\n- Keep a sealed plastic bag for used cloths near your laundry area",
+      "sectionPath": "Before (Prepare) > Important Things to Plan",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How do I shelter in place with pets for 2 weeks?",
+      "answer": "- If you and your pets cannot evacuate, prepare to keep them safe and comfortable, indoors if needed.\n- Keep extra food, water, medications, and comfort items ready for your pets.\n- Create a secure indoor area where pets cannot escape or be exposed to hazards.\n\nSupporting Children and People with Developmental Disabilities:\n- Turn sheltering into a calm exercise or game\n- Be honest but avoid causing fear\n- Keep a steady tone and focus on comfort and reassurance",
+      "sectionPath": "Before (Prepare) > Important Things to Plan",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "Why do I need an emergency toilet and what are the three essentials?",
+      "answer": "Make a safe toilet and waste management system at home if you do not have running water or a functioning toilet. After a major disaster, toilets and sinks may not work for days, weeks, or even longer. Safe waste handling prevents disease.\n\nThree Essentials to Stay Healthy:\n1. Water: Store plenty for drinking, cooking, cleaning, and hand washing.\n2. Hand washing: Keep soap and 60%+ alcohol sanitizer in your kit; build a simple hand wash station if possible.\n3. Safe poo storage: Choose a safe method to collect and store waste.",
+      "sectionPath": "Before (Prepare) > Important Things to Plan",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How do I build and use a twin-bucket emergency toilet?",
+      "answer": "Method 1: Twin Bucket System - Keeps pee and poo separate to reduce smell, volume, and risk.\n\nWhat you need:\n- 2 sturdy buckets (label \"Pee\" and \"Poo\")\n- Toilet seat that fits a bucket (or buy a camping style seat)\n- Layering material to create layers each time you use your poo bucket. Carbon material like sawdust, shredded paper, dry leaves, or peat moss works great for covering poo.\n- Heavy-duty trash bags (13-gallon, 0.9 mil or thicker)\n\nHow to use:\n- Pee bucket: Pee in the pee bucket, but put your toilet paper in the poo bucket. Dilute with water and spread pee on lawn if possible.\n- Poo bucket: line with bag, add poo and toilet paper, cover with carbon material each time.\n- Do not overfill; tie and double-bag when half full; store away from people, pets, food, and water.\n- Never bury poo bags or put in regular trash; wait for official disposal instructions.\n- Wash hands after every use.",
+      "sectionPath": "Before (Prepare) > Important Things to Plan",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How do I dig a pit latrine as an emergency toilet?",
+      "answer": "Method 2: Latrine (Pit Toilet) - Best for rural or spacious areas.\n\nHow to use:\n- Pick a spot 10 ft from buildings/property lines, 100 ft from water sources.\n- Dig hole 2-4 ft deep and ~2 ft wide; keep removed soil nearby.\n- Use latrine, cover waste with dirt after each use.\n- Stop when hole is 1 ft from full; cover with 1 ft of dirt and mark location.\n- Do not bury bags, diapers, or non-biodegradable items.",
+      "sectionPath": "Before (Prepare) > Important Things to Plan",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "Can I still use my septic system after a disaster?",
+      "answer": "Method 3: Septic System - If undamaged, you can keep using your toilet.\n\nCheck Before You Use:\n- Toilets flush and drains work.\n- No sewage smells or wet spots in yard.\n- Tank level is normal (do not enter tank).\n\nIf damaged:\n- Stop use; switch to Twin Buckets or a Latrine.\n- Keep people and pets away until repaired by a licensed professional.",
+      "sectionPath": "Before (Prepare) > Important Things to Plan",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What waste safety practices should I follow during an emergency, including for diapers and menstruation?",
+      "answer": "- Keep waste handling tools and surfaces clean.\n- Avoid touching waste; wear gloves if available.\n- Store poo bags in a secure place away from food, kids, pets, and pests.\n- Follow local agency instructions for final disposal.\n\nDiapers:\n- Keep extra diapers in your emergency kit.\n- Rotate your supply and update sizes as your child grows.\n- If your child is potty-training, let them keep using their small toilet. Add the waste to your household's emergency toilet buckets.\n- Bag used infant or adult diapers in heavy-duty black plastic bags (3-5 mil).\n- Store and dispose of them along with bagged poo when garbage service returns.\n\nPeople with Mobility or Balance Challenges:\n- Place toilet buckets in a spot with sturdy chairs, walls, or railings for support.\n- Raise the bucket using bricks or wood to make sitting and standing easier.\n\nMenstruation Hygiene Tools - Pads and Tampons:\n- Stock extra pads and tampons in your kit.\n- These can also help stop bleeding in first-aid situations.\n- Bag used products in heavy-duty black plastic bags (3-5 mil).\n- Dispose of them the same way you dispose of toilet paper and poo bags.\n\nMenstrual Cups:\n- Menstrual cups are washable, reusable, and stay cleaner than other options.\n- Try one before an emergency to see if it works for you.\n- If you do not like it, have other options ready.",
+      "sectionPath": "Before (Prepare) > Waste Safety Tips",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What should be in a survival kit for a household with kids?",
+      "answer": "Tailor your survival kit for your household's needs. Your survival kit should contain items your household would need to survive if there was a loss of electricity, running water, or other disaster situation. Store your survival kit in a cool, dry place. Be sure to update the kit with new needs and check the expiration date on the items annually.\n\nRecommended items include: battery-powered or hand-crank radio and a NOAA Weather Radio with tone alert, flashlight, first aid kit, extra batteries, whistle, dust mask, plastic sheeting and duct tape, moist towelettes/garbage bags/plastic ties, wrench or pliers, manual can opener, local maps, cell phone with chargers and backup battery, masks (for everyone ages 2 and above), soap, hand sanitizer, disinfecting wipes, prescription and non-prescription medications, prescription eyeglasses and contact lens solution, infant formula/bottles/diapers/wipes/diaper rash cream, cash or traveler's checks, important family documents in a waterproof container, sleeping bag or warm blanket for each person, complete change of clothing and sturdy shoes, fire extinguisher, matches in a waterproof container, feminine supplies and personal hygiene items, mess kits, and paper/pencil.",
+      "sectionPath": "Before (Prepare) > For Kids",
+      "phase": "Preparation",
+      "audience": "Kids"
+    },
+    {
+      "question": "What important documents should I keep ready for my pets?",
+      "answer": "Important Pet Documents:\n- Photocopied veterinary records\n- Rabies certificates\n- Vaccination records\n- Medical summary\n- Prescriptions for medications\n- Most recent heartworm test result (dogs)\n- Most recent FeLV/FIV test result (cats)\n- Photocopied registration information (e.g., proof of ownership or adoption records)\n- Pet description(s) (breed, sex, color, weight)\n- Recent photographs for each of your pets\n- Waterproof container for documents\n- Microchip information (microchip number, name and number of the microchip company)\n- Your contact information (phone numbers and addresses for your family and friends or relatives you may be staying with)\n\nMake sure all ID tags/microchip/contact information is current.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "What non-food items should I pack in my pet's emergency kit?",
+      "answer": "Other items for your pet's emergency kit:\n- Leash, collar with ID, and harness\n- Toys and treats\n- Appropriate-sized pet carrier with bedding, blanket, or towel\n- Pet first aid kit\n- Cleaning supplies for accidents (paper towels, plastic bags, disinfectant, waterless shampoo, brush)\n- Litterbox and litter (for cats)",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "How much food, water, and medication should I store for my dog or cat?",
+      "answer": "Food, Water, and Medications:\n- 2-week supply of food for each animal stored in waterproof containers\n- 2-week supply of water for each animal\n- Non-spill food and water dishes\n- Manual can opener\n- Feeding instructions for each animal\n- 2-week supply of any medications (if applicable)\n- Medication instructions (if applicable)\n- One month supply of flea, tick, and heartworm preventative",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I stock food, water, and medication for farm animals?",
+      "answer": "Preparing emergency food, water, and medication for farm animals.\n\nFOOD:\n- 2-week supply of food for each animal, stored in waterproof containers\n- Feeding instructions for each animal\n\nWATER:\n- 2-week supply of water for each animal, stored in secure containers\n- Ensure water supply doesn't require power/electricity to access\n- Non-spill food and water dishes/troughs/buckets\n\nMEDICATIONS:\n- 2-week supply of any medications (if applicable)\n- Medication instructions (if applicable)\n- One month supply of dewormer, fly repellent, and supplements as needed",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "What general emergency kit items should I gather for my farm animals?",
+      "answer": "Prepare the following list of items tailored to your animals' survival needs.",
+      "sectionPath": "Before (Prepare) > For Farm Animals",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "What records, medical supplies, and handling equipment should be in a farm animal emergency kit?",
+      "answer": "1. Records:\n- Proof of ownership\n- Veterinary records\n- Dietary records for all animals\n- Emergency contact information\n- Important emergency numbers, including: emergency veterinarian, mobile veterinarian, pharmacy, state veterinary office\n- Keep in waterproof containers\n\n2. Medical Supplies:\n- Each animal's necessary medications, including drug name, dose, and frequency\n- Basic first aid kit\n\n3. Supplies for temporary identification of animals:\n- Plastic neckbands and permanent markers to label with name, address, and telephone number\n\n4. Handling equipment:\n- Halters\n- Cages\n- Appropriate tools for each kind of animal\n- Cleaning tools and supplies\n\n5. Cell phone, flashlights, portable radios, and batteries\n\n6. Other safety and emergency items for vehicles and trailers\n\n7. Maps of local area and alternate evacuation routes",
+      "sectionPath": "Before (Prepare) > General items",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What should I pack in a backyard poultry emergency kit?",
+      "answer": "Essentials needed in case of disaster for backyard poultry:\n- Leg bands with emergency contacts\n- Photos of all birds for identification\n- Vitamin and electrolyte packs (stress packs)\n- Feeders and waterers\n- Detergent, disinfectant, gloves and other cleaning supplies for cleaning cages\n- Absorbent bedding material (newspaper can work temporarily) for cages or temporary coops\n- If evacuating chicks, consider their special needs (heat, food, equipment)",
+      "sectionPath": "Before (Prepare) > General items",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What goes in an emergency kit for horses or livestock?",
+      "answer": "Prepare the following list of items tailored to your equine animals' survival needs:\n- 7-10 day supply of feed, supplements, and water\n- Bandanas (to use as blindfolds)\n- Blankets\n- Cotton halter\n- Duct tape\n- Fly spray\n- Grooming brushes\n- Heavy gloves\n- Hoof care: knife, nippers, pick, rasp\n- Knife (sharp, all-purpose)\n- Leg wraps and leg quilts\n- Non-nylon halters and leads\n- Nose leads\n- Paper towels\n- Plastic trash cans with lids (can store water)\n- Portable livestock panels\n- Radio (solar, hand cranked and/or battery operated)\n- Rope or lariat\n- Shovel\n- Tarpaulins\n- Trash bags\n- Water buckets\n- Wire cutters",
+      "sectionPath": "Before (Prepare) > General items",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How can someone with a disability get '3 Days Ready' for evacuation?",
+      "answer": "Being \"3 Days Ready\" means you can be away from your home, job, and neighborhood for at least 3 days. You may stay in a shelter, hotel, or with someone outside the affected area. This is an extreme situation and will likely bring many emotions. Taking action ahead of time can help you stay calm and confident during an evacuation. While it is best to be self-sufficient for longer than 3 days, this is a good starting benchmark.",
+      "sectionPath": "Before (Prepare) > For People with Disabilities",
+      "phase": "Preparation",
+      "audience": "Disabilities"
+    },
+    {
+      "question": "What does '3 Days Ready' mean for older adults?",
+      "answer": "Being \"3 Days Ready\" means you can be away from your home, job, and neighborhood for at least 3 days. You may stay in a shelter, hotel, or with someone outside the affected area. This is an extreme situation and will likely bring many emotions. Taking action ahead of time can help you stay calm and confident during an evacuation. While it is best to be self-sufficient for longer than 3 days, this is a good starting benchmark.",
+      "sectionPath": "Before (Prepare) > For Older Adults",
+      "phase": "Preparation",
+      "audience": "Older Adults"
+    }
+  ]
+}

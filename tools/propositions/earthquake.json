@@ -1,0 +1,321 @@
+{
+  "packId": "earthquake",
+  "packName": "Earthquake",
+  "propositions": [
+    {
+      "question": "What's the core action to take when an earthquake starts?",
+      "answer": "DROP. COVER. HOLD ON.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I 'Drop' during an earthquake?",
+      "answer": "- Wherever you are, drop down to your hands and knees and hold onto something sturdy.\n- If using a wheelchair or walker with a seat, make sure wheels are locked and remain seated until the shaking stops.",
+      "sectionPath": "During (React) > 1. Drop",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How do I 'Cover' during an earthquake?",
+      "answer": "- Cover your head and neck with your arms.\n- Crawl underneath a table or desk for shelter.\n- If no shelter is nearby, crawl next to an interior wall (away from windows).",
+      "sectionPath": "During (React) > 2. Cover",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How do I 'Hold On' during an earthquake?",
+      "answer": "- If you are under a table or desk, hold on with one hand and be ready to move with it if it moves.\n- If seated and unable to drop to the floor, bend forward, cover your head with your arms and hold on to your neck with both hands.",
+      "sectionPath": "During (React) > 3. Hold On",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What should I do in special situations (car, bed, outdoors, toilet) when the ground is shaking?",
+      "answer": "- If you are in a car, pull over and stop. Set your parking brake.\n- If you are in bed, turn face down and cover your head and neck with a pillow.\n- If you are outdoors, stay outdoors away from buildings.\n- If you are inside, stay and do not run outside and avoid doorways.\n- If you are on the toilet, get beside the toilet and drop, cover, and hold. Wipe/clean up but do not flush after the shaking, sewer lines may be broken.",
+      "sectionPath": "During (React) > 4. Special situations when the earth is shaking:",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What should I do immediately after the shaking stops?",
+      "answer": "- If you are in a tsunami/dam failure inundation zone, immediately go to higher ground or shelters after shaking stops.\n- Check yourself to see if you are hurt and help others if you have training. Learn how to be the help until help arrives.\n- If you are in a damaged building, go outside and quickly move away from the building. Do not enter damaged buildings.\n- If you are trapped, send a text or bang on a pipe or wall. Cover your mouth with your shirt for protection and instead of shouting, use a whistle.",
+      "sectionPath": "During (React) > 5. Special situations after shaking stops:",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What kinds of injuries are most likely from earthquake debris?",
+      "answer": "During an earthquake, falling debris or rubble will be the likely cause of injury.\n\n- Bleeding will most likely occur, and will need to be slowed or stopped.\n- Any wounds (cuts, penetrating wounds, blunt trauma) should be treated as soon as possible.\n- Be aware that head injuries are also likely. Do not attempt to move the person if you think they might have a spinal injury and the area is safe.",
+      "sectionPath": "During (React) > During an earthquake, falling debris or rubble will be the likely cause of injury.",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What does an earthquake feel like and how long does it last?",
+      "answer": "- Earthquakes last from a few seconds to several minutes and usually start with a rumbling noise that can be low in volume or as loud as a freight train.\n- The ground may be shaking sideways, up and down, or wave-like, and can occur over very large regions.\n- Earthquakes can cause damage to your community including collapsing schools, homes, bridges, dams, highways, and even tall buildings.",
+      "sectionPath": "During (React) > During an earthquake, falling debris or rubble will be the likely cause of injury.",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What should I expect from aftershocks?",
+      "answer": "Commonly, earthquake aftershocks take place in the same area as the main quake. The frequency of aftershocks depends on the size of the main earthquake. Aftershocks can happen over the course of weeks, months, or years after the main quake.",
+      "sectionPath": "During (React) > During an earthquake, falling debris or rubble will be the likely cause of injury.",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What should I teach my kids to do during an earthquake?",
+      "answer": "During an earthquake, families should:\n\n1. DROP - Down onto hands and knees to avoid falling.\n\n2. COVER YOUR HEAD AND NECK - Get under sturdy furniture and away from windows or anything that can fall. If you are outside, stay away from buildings or anything that can fall on you.\n\n3. HOLD ON - Stay where you are until the shaking stops.",
+      "sectionPath": "During (React) > For Kids",
+      "phase": "Response",
+      "audience": "Kids"
+    },
+    {
+      "question": "How do I protect infants and small children during an earthquake?",
+      "answer": "Infants: Pick up the baby in your arms, holding the child against your chest, and carry them as you Drop, Cover, and Hold On.\n\nOlder Kids: Crouch over and surround the child with your body. Use an arm to pull the child up next to you and hold them in place.\n\nMore than One Kid:\n- Direct kids to drop, cover, and hold on safely when the shaking starts.\n- Get everyone into a crawling position to protect vital organs and be ready to move if needed, and cover your head and neck with your hands and arms.\n- Watch for projectiles or falling furniture.\n- If there is no table or desk near you, either carry your children or direct them to drop to the ground.\n- If possible and safe to do so, move to an inside corner of the room.",
+      "sectionPath": "During (React) > Protecting Infants and Kids During an Earthquake",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How do I help my kids emotionally right after an earthquake?",
+      "answer": "Parents and caregivers can:\n\nModel calm behavior. Children mirror the reactions of adults around them and learn how to take care of themselves from what parents and caregivers do.\n\nProvide simple but accurate information in a quiet, steady voice. Help them understand what happened and that aftershocks may come. Discuss where the family can live in the house or any plans to move. As they begin to see the damage, acknowledge that this is a scary time.\n\nEncourage comforting or distracting activities. Slow breathing may help calm kids' bodies. Kids may find comfort in holding a stuffed animal or blanket. Electricity may be out for a long period or outside areas restricted, so children may need help identifying different activities to keep distracted.\n\nEngage in coping strategies. Practice self-care. Find an opportunity to take a moment for yourself, express feelings, and acknowledge that it is a scary situation.",
+      "sectionPath": "During (React) > Protecting Infants and Kids During an Earthquake",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What should pet guardians do during an earthquake?",
+      "answer": "During an earthquake, pet guardians should:\n\n1. DROP - Down onto hands and knees to avoid falling.\n\n2. COVER YOUR HEAD AND NECK - Get under sturdy furniture and away from windows or anything that can fall. If you are outside, stay away from buildings or anything that can fall on you.\n\n3. HOLD ON - Stay where you are until the shaking stops.",
+      "sectionPath": "During (React) > For Pets",
+      "phase": "Response",
+      "audience": "Pets"
+    },
+    {
+      "question": "What's the right way to shield my pet when the shaking starts?",
+      "answer": "If you can safely hang on to your pet:\n- Drop to the ground with them.\n- Move to safety.\n- Cover your head and neck.\n- Keep them under or beside you.\n\nIf you are outside walking your dog:\n- Hang on to your dog's leash.\n- Drop to the ground.\n- Crawl to an open area without trees, power lines, or buildings.\n\nIf your pet is in a crate or carrier:\n- Do not remove them.\n- Drag or carry them to a safe spot if possible.",
+      "sectionPath": "During (React) > Immediate Actions for Pets",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What if my pet panics or tries to bite during an earthquake?",
+      "answer": "- Do not risk your own injury.\n- Release them and allow them to find a place to hide.\n- Do not move or look for them until shaking has stopped.",
+      "sectionPath": "During (React) > Some animals will panic or bite during an earthquake.",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What should I do for my farm animals during an earthquake?",
+      "answer": "Immediate Emergency Actions with Farm Animals:\n\n1. DROP - Down onto hands and knees to avoid falling.\n\n2. COVER YOUR HEAD AND NECK - Get under sturdy furniture and away from windows or anything that can fall. If you are outside, stay away from buildings or anything that can fall on you.\n\n3. HOLD ON - Stay where you are until the shaking stops.",
+      "sectionPath": "During (React) > For Farm Animals",
+      "phase": "Response",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I shelter a small farm animal during shaking?",
+      "answer": "If your animal is small and can be held:\n- Drop to the ground with them.\n- Cover your head and neck.\n- Keep them beside you.",
+      "sectionPath": "During (React) > Immediate Actions for Farm Animals",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What if my farm animals panic and run during an earthquake?",
+      "answer": "- Do not risk your own injury.\n- Allow them to find a place to hide.\n- Do not move or look for them until shaking has stopped.",
+      "sectionPath": "During (React) > Some animals will panic or run during an earthquake.",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How do I start preparing my household for an earthquake?",
+      "answer": "Prepare for Earthquake - a to-do list for preparation. Follow the steps in this section: make an emergency plan, build a supply kit, protect your home, plan for tsunami/dam failure zones, and prepare medically.",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "What goes in a family earthquake emergency plan?",
+      "answer": "Create a family emergency communications plan that has an out-of-state contact. Plan where to meet if you get separated.",
+      "sectionPath": "Before (Prepare) > 2. Make an Emergency Plan:",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What should be in my earthquake supply kit?",
+      "answer": "- Water (one gallon per person per day for several days, for drinking and sanitation)\n- Food (at least a three-day supply of non-perishable food)\n- Cleaning supplies for several days\n- Battery-powered or hand crank radio and a NOAA Weather Radio with tone alert\n- Flashlight\n- First aid kit\n- A fire extinguisher\n- Extra batteries\n- Whistle (to signal for help)\n- Dust mask (to help filter contaminated air)\n- Plastic sheeting and duct tape (to shelter in place)\n- Moist towelettes, garbage bags and plastic ties (for personal sanitation)\n- Wrench or pliers (to turn off utilities)\n- Manual can opener (for food)\n- Local maps\n- Cell phone with chargers and a backup battery\n- Soap, hand sanitizer that contains at least 60 percent alcohol, disinfecting wipes, and general household cleaning supplies.",
+      "sectionPath": "Before (Prepare) > 3. Make a supply kit:",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How can I earthquake-proof my home?",
+      "answer": "- Secure heavy items in your home like bookcases, refrigerators, televisions, and objects that hang on walls.\n- Store heavy and breakable objects on low shelves.\n- Consider making improvements to your building to fix structural issues that could cause your building to collapse during an earthquake.",
+      "sectionPath": "Before (Prepare) > 4. Protect Your Home:",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What kinds of injuries should I medically prepare for before an earthquake?",
+      "answer": "Most injuries encountered during and after an earthquake will consist of:\n- Penetrating injury\n- Crushing/blunt force injury\n- Bone fractures\n- Head injuries",
+      "sectionPath": "Before (Prepare) > 5. If you are in a tsunami/dam failure inundation zone, be prepared to leave to higher ground. See [how to prepare for a tsunami.](`hazadapt://hazards/tsunami`)",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How should I use coban wrap, gauze pads, and tourniquets in an earthquake medical kit?",
+      "answer": "Coban wrap and gauze pads are two great pieces of medical equipment that are easy to learn, easy to use, and can control most bleeding situations. Gauze pads are applied directly to a wound, using the coban to wrap and secure the gauze pad(s) in place.\n\nA tourniquet is also recommended to have in a medical kit for certain limb injuries. Remember to train with a tourniquet often. Placing the tourniquet high on the affected limb (as close to the torso as possible), and as tight as possible is the best way to ensure zero continued blood loss.",
+      "sectionPath": "Before (Prepare) > 5. If you are in a tsunami/dam failure inundation zone, be prepared to leave to higher ground. See [how to prepare for a tsunami.](`hazadapt://hazards/tsunami`)",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "Are there games or activities to teach earthquake preparedness?",
+      "answer": "Games and playful resources to help learn and practice earthquake preparedness:\n\nCascadia 9.0 (Created by Lewis & Clark College): You play as several different characters to learn how to survive and thrive after an earth-shaking catastrophe! (Ages: Young Adult)\n\nEarthquake Coloring Page for Kids (Created by Washington Emergency Management Division): Help Sasquatch evacuate his home after an earthquake and get to his family's meeting spot.",
+      "sectionPath": "Before (Prepare) > 5. If you are in a tsunami/dam failure inundation zone, be prepared to leave to higher ground. See [how to prepare for a tsunami.](`hazadapt://hazards/tsunami`)",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What essential emergency items are most important for an earthquake?",
+      "answer": "Most important items:\n- Emergency kit\n- First aid kit with wound supplies\n- Written emergency plan\n- Clean water\n- A phone to call for help\n- Copies of medical prescriptions and extra medications\n- Nonperishable food items\n- A sturdy table\n\nOther helpful items:\n- Cleaning supplies\n- Flashlight and batteries\n- Battery charger for cell phone\n- Sturdy boots or shoes\n- Sturdy work gloves\n- Long sleeve shirts, jackets, long pants\n- A device that receives emergency alerts\n- Battery or crank-operated radio\n- A go-bag ready for everyone in the household\n- Copies of important documents\n- Protective eye gear or goggles",
+      "sectionPath": "Before (Prepare) > 5. If you are in a tsunami/dam failure inundation zone, be prepared to leave to higher ground. See [how to prepare for a tsunami.](`hazadapt://hazards/tsunami`)",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How do I talk to my children about earthquake safety?",
+      "answer": "Talk to your children about earthquakes. Using simple words, help your child understand:\n- What could happen during an earthquake\n- Your family's earthquake emergency plan, evacuation plan, and meeting location\n- Reassure them that their safety is your utmost priority",
+      "sectionPath": "Before (Prepare) > For Kids",
+      "phase": "Preparation",
+      "audience": "Kids"
+    },
+    {
+      "question": "Where are the safest spots in my house for kids during a quake?",
+      "answer": "Find safe spots in your home. Tell children to go there immediately if they feel an earthquake.\n- The safest place is an interior room of your house without any windows, like a bathroom or closet.\n- If possible, take cover under something sturdy, like a heavy table.\n\nPractice earthquake drills. Rehearse the home safe spots and the evacuation plan twice a year.",
+      "sectionPath": "Before (Prepare) > For Kids",
+      "phase": "Preparation",
+      "audience": "Kids"
+    },
+    {
+      "question": "What should I know about my child's school earthquake plan?",
+      "answer": "Learn your child's school or daycare disaster plans. Parents and caregivers should know:\n- If the school or childcare is in an area at risk from earthquakes.\n- Whether the school's emergency plan addresses earthquakes.\n- Procedures for school evacuation, notifying parents, and if there is an alternate pick-up location.\n\nKeep your emergency contact information current. Update the school's record for changes in phone numbers, addresses, and relationships.\n\nHave kids help create their own Emergency Bag.",
+      "sectionPath": "Before (Prepare) > For Kids",
+      "phase": "Preparation",
+      "audience": "Kids"
+    },
+    {
+      "question": "How do I prepare my pet for an earthquake?",
+      "answer": "1. Prepare pet emergency items - pet emergency kits with emergency water, food, and medications.\n\n2. Keep the emergency kit and supplies where they are easily accessible and can be quickly grabbed if you have to evacuate.\n\n3. Be aware of your animal's hiding places and behavior so you can find them quickly if an event happens.\n\n4. Identify safe spots in the home where you and your animal can shelter, such as under sturdy furniture, next to inside walls, or away from windows.\n\n5. Let responders know there's a pet inside. Place alert stickers on your windows and by your front door so rescuers know there are animals in the home.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I earthquake-proof my home for my pets?",
+      "answer": "Create safe surroundings for your animals. Identify hazards in areas where your animals live and/or spend most of their time (for example, a bird or rabbit in a cage) that can cause injury or death, including:\n- Tall heavy furniture such as bookshelves that could fall\n- Appliances that could tip or move\n- Picture frames, mirrors, and potted plants that could fall or break\n- Cabinets that may swing open, exposing potential hazards\n- Other breakables or heavy objects that could fall and cause injury\n- Remove any chemicals or flammable liquids and store them outside in a garage or shed.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I prepare my farm animals for an earthquake?",
+      "answer": "1. Prepare an emergency kit for your animals. Include food, water, and all necessary medications.\n\n2. Keep the emergency kit accessible. You should be able to easily get into it and quickly loaded in the car if you have to evacuate.\n\n3. Secure fencing, pens, barns, and other structures. Make any needed repairs or reinforcements. Consider earthquake-resistant construction for barns and pens. Regularly inspect all structures and utilities.\n\n4. Create safe surroundings for your animals. Secure or remove any equipment, tools, or heavy items that could fall and cause injury. Do not confine animals in structures that could fall and injure them. Do not store straw/hay bales/heavy items above animals. Store chemicals or hazardous materials in secure areas away from the animals.\n\n5. Have an evacuation plan with at least two routes out of the area.",
+      "sectionPath": "Before (Prepare) > For Farm Animals",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "If the barn isn't safe, what should a release pasture look like?",
+      "answer": "If the barn is not secure, release animals into a pasture with secure fencing rather than confining them inside. Assess for:\n- No trees that may fall or uproot easily.\n- No overhead power lines or poles.\n- No debris or sources of blowing debris.\n- No barbed wire fencing. Woven wire fencing is best.\n- At least one acre (0.4 hectares) of open space.\n- Consider evacuation if structures/pastures are unsafe.",
+      "sectionPath": "Before (Prepare) > If the barn is not secure, release animals into a pasture with secure fencing rather than confining them inside.",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How should someone with a disability prepare for an earthquake?",
+      "answer": "Create an emergency plan that considers your disability, and practice it with your family or caregivers.\n- Identify safe spaces in your home to take cover during an earthquake and keep mobility devices nearby.\n- Secure any items in your home that could fall or become a hazard during an earthquake, such as shelves or heavy furniture.\n- Keep a list of emergency phone numbers and essential documents, such as your medical records and medications, in an easily accessible location.\n- If you use medical equipment that requires electricity, have a backup plan in case of a power outage. Consider purchasing a generator or backup battery for your equipment.\n- If you have a service animal, ensure they are trained to follow your emergency plan and have a disaster supply kit, including food, water, and any necessary medications.\n- Consider getting a medical alert system that can automatically notify emergency services in case of an earthquake or other emergency.\n- Stay informed about earthquake safety and preparedness by getting connected to more local safety information or attending community training sessions.",
+      "sectionPath": "Before (Prepare) > For People with Disabilities",
+      "phase": "Preparation",
+      "audience": "Disabilities"
+    },
+    {
+      "question": "What earthquake safety tips are most important for older adults?",
+      "answer": "Safety Tips to Consider:\n- Eliminate hazards. Make it easy to get under a sturdy table for protection quickly.\n- Special equipment, such as life support systems, should be anchored. Tanks of gas such as oxygen should fasten to wall studs.\n- Keep a list of medications, allergies, special equipment, names, and numbers of doctors and family members. Make sure to have this list with you at all times.\n- Keep an extra pair of eyeglasses and medication with your emergency supplies.\n- Walking aids should be near you at all times. It may be best to have different walking aids in different locations.\n- Make sure you have a whistle to signal for help.",
+      "sectionPath": "Before (Prepare) > For Older Adults",
+      "phase": "Preparation",
+      "audience": "Older Adults"
+    },
+    {
+      "question": "What hazards should I watch out for right after an earthquake?",
+      "answer": "Expect serious hazards and take precautions:\n- There may be damage to buildings, leaking gas and water lines, or downed power lines.\n- Avoid contact with floodwaters as they can contain chemicals, sewage, and debris.\n- Be careful when cleaning up. Wear protective clothing, including a long-sleeved shirt, long pants, work gloves, and sturdy thick-soled shoes.\n\nExpect aftershocks:\n- The ground may start to shake again (possibly multiple times) after the main shock of an earthquake.\n- Be ready to Drop, Cover, and Hold On if you feel an aftershock.",
+      "sectionPath": "After (Recover) > For Adults",
+      "phase": "Recovery",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I stay connected and informed after an earthquake?",
+      "answer": "Once you are safe, pay attention to local news reports for emergency information and instructions via battery-operated radio, TV, social media or from cell phone text alerts.\n\nUse text messages to communicate, which may be more reliable than phone calls.\n\nEngage virtually with your community through video and phone calls. Know that it's normal to feel anxious or stressed. Take care of your body and talk to someone if you are feeling upset.",
+      "sectionPath": "After (Recover) > For Adults",
+      "phase": "Recovery",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I handle medical treatment for injuries after an earthquake?",
+      "answer": "Be sure to have any wounds or broken bones looked at and treated by a trained medical professional.\n- All gauze pads, dressings, or anything used to slow or stop bleeding should be replaced with fresh bandages.\n- If a tourniquet has been used, do not leave it on for longer than 2 hours, unless still in an emergency situation.\n\nAfter an earthquake, there may be scattered debris, fallen objects, or other dangerous obstacles. Make sure you are careful navigating the area so that you are not injured.",
+      "sectionPath": "After (Recover) > For Adults",
+      "phase": "Recovery",
+      "audience": "Adults"
+    },
+    {
+      "question": "How can I help my kids recover emotionally after an earthquake?",
+      "answer": "Involve children in recovery. After an earthquake, include children in clean-up activities if it is safe to do so. It is comforting to children to watch the household begin to return to normal and to have a job to do.\n\nListen to children. Encourage your child to express feelings of fear, anxiety or anger. Listen carefully, show understanding, and offer reassurance. Tell your child that the situation is not permanent, and provide physical reassurance through time spent together and displays of affection. Contact local organizations, voluntary organizations, or professionals for counseling if extra help is needed.\n\nResource: Families can text SHELTER and their zip code to 43362 (4FEMA) to find the nearest open shelter.",
+      "sectionPath": "After (Recover) > For Kids",
+      "phase": "Recovery",
+      "audience": "Kids"
+    },
+    {
+      "question": "What should I do for my pet immediately after an earthquake?",
+      "answer": "If your pet is with you:\n- Assess for injuries and treat once safe to move.\n- Check for immediate danger such as fires, unstable structures, debris, broken glass.\n- Leash or secure your pet in a carrier - they may try to run away when aftershocks occur.\n\nIf your pet is not with you:\n- Search for them once it's safe to move around.\n- Don't just call for them. They may be too scared to come out.\n- Assess and treat them for injuries.\n- Secure them with a leash or in a carrier.\n\nKeep pets secured and under your control at all times - they may be disoriented and scared and try to run away.\n\nMove pets to a shelter or boarding facility if the home is unsafe.",
+      "sectionPath": "After (Recover) > For Pets",
+      "phase": "Recovery",
+      "audience": "Pets"
+    },
+    {
+      "question": "What should I do if my pet escaped during an earthquake?",
+      "answer": "If your pet has escaped the home:\n- Search the surrounding area if safe to do so.\n- Gather documents, photos, and proof of ownership and contact local shelters.\n- Ask neighbors to keep an eye out for them. Provide photos as needed.",
+      "sectionPath": "After (Recover) > For Pets",
+      "phase": "Recovery",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I help my pet cope with stress after an earthquake?",
+      "answer": "To help pets cope after an earthquake, pet guardians can:\n\n1. Have familiar toys, blankets, and treats on hand.\n2. Spend time comforting and reassuring them.\n3. Understand that stressed pets may have accidents, vomit, or show unusual behavior.\n4. Be patient with them if they are not acting like their normal selves.\n5. Consult a veterinarian if they are exhibiting concerning behavior such as aggression, lethargy, not eating, or behavior getting worse - this can indicate pain or illness.",
+      "sectionPath": "After (Recover) > For Pets",
+      "phase": "Recovery",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I check on my farm animals after an earthquake?",
+      "answer": "Once it is safe to move around:\n- Check for immediate danger such as fires, unstable structures, debris, broken glass.\n- Assess all animals for injuries and call for veterinary care as needed.\n- Provide reassurance for frightened animals.\n- Assess for any broken or fallen fences and make sure animals are secure on the property.\n- Animals may try to run away when aftershocks occur.\n- If necessary, move animals to a safe location.\n\nDo not enter any unsafe or fallen buildings. If animals are trapped and the building is unsafe, call for assistance.",
+      "sectionPath": "After (Recover) > For Farm Animals",
+      "phase": "Recovery",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I find a farm animal that escaped during an earthquake?",
+      "answer": "If your animals have escaped:\n- Search the surrounding area once safe to do so.\n- Gather documents, photos, and proof of ownership.\n- Contact local animal control and veterinary hospitals.\n- Ask neighbors to keep an eye out for them or assist with searching. Provide photos as needed.",
+      "sectionPath": "After (Recover) > For Farm Animals",
+      "phase": "Recovery",
+      "audience": "Pets"
+    },
+    {
+      "question": "How can older adults recover and reconnect after an earthquake?",
+      "answer": "A wide range of reactions to earthquakes is expected in older adults.\n\nIt is crucial to reconnect with family, loved ones, and communities after an earthquake. This can reduce stress and encourage recovery.\n\nOlder adults who live alone may rely on healthcare staff, family members, and volunteers to help them with some activities of daily living. Connect with organizations and programs that may be helpful.\n\nYou can find state units on aging and area agencies on aging in or near your area using the Eldercare Locator (https://eldercare.acl.gov/Public/Index.aspx) or by phone at 1-800-677-1116.",
+      "sectionPath": "After (Recover) > For Older Adults",
+      "phase": "Recovery",
+      "audience": "Older Adults"
+    }
+  ]
+}

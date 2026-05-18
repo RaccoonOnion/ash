@@ -1,0 +1,202 @@
+{
+  "packId": "extreme-heat",
+  "packName": "Extreme Heat",
+  "propositions": [
+    {
+      "question": "When should I call 911 for heat-related illness?",
+      "answer": "Call 9-1-1 or get emergency medical help if you see signs of heatstroke: high body temperature (103°F or higher), skin that is hot, red, dry, or damp, fast strong pulse, headache, dizziness, nausea, confusion, or losing consciousness (passing out). Fainting may be the first sign in elders.",
+      "sectionPath": "During (React)",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What's the difference between heat exhaustion and heat stroke?",
+      "answer": "Someone suffering from heat exhaustion will have pale, cold, and clammy skin. Someone suffering from heat stroke will have hot, red, dry skin. Delayed treatment of heat stroke may result in death.",
+      "sectionPath": "How to tell the difference between heat exhaustion and heat stroke:",
+      "phase": "General",
+      "audience": "General"
+    },
+    {
+      "question": "How do I cool down a heat stroke victim while waiting for help?",
+      "answer": "1. Immediately move the person to a cooler place. 2. Help lower their temperature by placing them in a tub of cool water or a cool shower, spraying them with a garden hose, sponging or misting them with cool water, placing ice packs or cool wet towels on the neck, armpits and groin, or covering them with cool damp sheets. 3. Heatstroke victims should NOT drink any fluids OR be chilled with ice while waiting for medical assistance. 4. Begin CPR if the person loses consciousness and shows no signs of life. Do not use ice for older patients, young children, patients with chronic illness, or anyone whose heatstroke occurred without vigorous exercise.",
+      "sectionPath": "How to tell the difference between heat exhaustion and heat stroke: > After calling for emergency medical help:",
+      "phase": "General",
+      "audience": "General"
+    },
+    {
+      "question": "What are the signs of heat exhaustion?",
+      "answer": "Heavy sweating; cold, pale, and clammy skin; fast, weak pulse; nausea or vomiting; muscle cramps; tiredness or weakness; dizziness; headache; and fainting (passing out).",
+      "sectionPath": "How to tell the difference between heat exhaustion and heat stroke: > After calling for emergency medical help:",
+      "phase": "General",
+      "audience": "General"
+    },
+    {
+      "question": "What should I do during an extreme heat warning?",
+      "answer": "1. Find air conditioning. 2. Avoid strenuous activities. 3. Wear light clothing. 4. Check on family members and neighbors. 5. Drink plenty of fluids. 6. Watch for heat cramps, heat exhaustion, and heat stroke. 7. Never leave people or pets in a closed car.",
+      "sectionPath": "How to tell the difference between heat exhaustion and heat stroke: > After calling for emergency medical help:",
+      "phase": "General",
+      "audience": "General"
+    },
+    {
+      "question": "Where can I find a cooling center?",
+      "answer": "Search online for a cooling center near you. Libraries, shopping malls, and community centers can be cool places to avoid the heat. If you are a senior who cannot afford to buy or run an air conditioner, check with your local Area Agency on Aging for programs like the Low Income Home Energy Assistance Program (LIHEAP). There may also be assistance through your state public health or Department of County Human Services Weatherization Services.",
+      "sectionPath": "How to tell the difference between heat exhaustion and heat stroke: > After calling for emergency medical help:",
+      "phase": "General",
+      "audience": "General"
+    },
+    {
+      "question": "What are the signs of heatstroke in children?",
+      "answer": "Seek emergency medical treatment immediately if a child has been outdoors or in any hot environment and shows these signs of heatstroke: severe headache, weakness, dizziness, confusion, nausea, rapid breathing and heartbeat, loss of consciousness, seizure, no sweating, flushed hot dry skin, or temperature of 104°F (40°C) or higher. In babies, signs include restlessness, rapid breathing, lethargy, irritability, and vomiting. Before heat stroke symptoms appear, kids often show signs of milder heat illnesses such as heat cramps and heat exhaustion.",
+      "sectionPath": "How to tell the difference between heat exhaustion and heat stroke: > For Kids",
+      "phase": "General",
+      "audience": "Kids"
+    },
+    {
+      "question": "How do I treat a child or baby with heat stroke while waiting for help?",
+      "answer": "1. Get them indoors or into the shade. 2. Undress them and sponge or douse them with cool water. 3. Do not give fluids unless your child is awake, alert, and acting normally.",
+      "sectionPath": "How to tell the difference between heat exhaustion and heat stroke: > Treatment for Kids and Babies",
+      "phase": "General",
+      "audience": "Kids"
+    },
+    {
+      "question": "What do I do if my pet has heatstroke?",
+      "answer": "Heatstroke is life-threatening — start cooling and seek emergency veterinary care right away. 1. Move your pet into shade or preferably air conditioning. 2. Soak towels in cool (not cold) water and place them over your pet; if towels aren't available, wet your pet with cool water. 3. Replace the towels as soon as they become warm. 4. Do not immerse or drench your pet in cold water or apply alcohol to any body part — this can cause a dangerous drop in body temperature. 5. Continue to apply cool towels while you take your pet to a veterinary hospital. 6. Run the air conditioning in the car or keep the windows open. Begin CPR if the pet loses consciousness and shows no signs of life.",
+      "sectionPath": "How to tell the difference between heat exhaustion and heat stroke: > For Pets",
+      "phase": "General",
+      "audience": "Pets"
+    },
+    {
+      "question": "What are the signs of heatstroke in farm animals?",
+      "answer": "Panting; foaming or drooling from the mouth; excessive sweating (in horses and cows); increased respiration rate; increased water intake; loss of appetite; listless or lethargic behavior; collapse; increased salivation; and in severe cases, may become unconscious.",
+      "sectionPath": "How to tell the difference between heat exhaustion and heat stroke: > For Farm Animals",
+      "phase": "General",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I treat a cow, goat, sheep, or other large animal with heatstroke?",
+      "answer": "1. Move the animal to shade or air conditioning immediately. 2. If the animal is too stressed to move or unable to stand, provide shade where they are. 3. Spray them with cool (not cold) water, especially on the legs and feet. 4. Lay wet towels soaked in cool water over them. 5. Stand them in water. 6. If able to drink, offer cool clean water and encourage the animal to drink small amounts. 7. Use fans to help with cooling. 8. Seek immediate veterinary care.",
+      "sectionPath": "How to tell the difference between heat exhaustion and heat stroke: > For Farm Animals",
+      "phase": "General",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I treat a chicken with heatstroke?",
+      "answer": "1. Move to a cool place. 2. Gently bathe in cool (not cold) water. 3. Use fans to help with cooling. 4. If able to drink, offer electrolytes and water. 5. If able to eat, offer hydrating snacks like fruit or insects. 6. Seek immediate veterinary care.",
+      "sectionPath": "How to tell the difference between heat exhaustion and heat stroke: > For Farm Animals",
+      "phase": "General",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I protect my skin and stay hydrated outdoors in extreme heat?",
+      "answer": "Wear lightweight, light-colored, loose-fitting clothes and a wide-brimmed hat. Use sunscreen with SPF of 30 or more. Drink extra fluids — at least eight glasses of water, fruit juice, or vegetable juice per day. Keep your electrolytes (salt and other essential nutrients) balanced with a sports drink. Reschedule or cancel outdoor activity, and if possible shift your time outdoors to the coolest times of the day (early morning or after sunset).",
+      "sectionPath": "Before (Prepare) > If you must go outdoors, take caution:",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How much water should I drink before, during, and after exercising in heat?",
+      "answer": "Two hours before exercise: drink 24 ounces of fluid. Right before exercise: consider adding another 8 ounces of water or sports drink. During exercise: drink another 8 ounces of water every 20 minutes, even if you do not feel thirsty.",
+      "sectionPath": "Before (Prepare) > If you must go outdoors, take caution:",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How do I know if I'm getting dehydrated in extreme heat?",
+      "answer": "Check the color of your pee — darker urine is a sign of dehydration. Drink enough fluids to maintain very light-colored urine. You can also weigh yourself before and after physical activity to see lost water weight, which helps determine how much fluid you need to drink. Avoid caffeine or alcohol, which can make you lose more fluids and worsen heat-related illness. Do not take salt tablets unless your doctor has told you to — the easiest and safest way to replace salt and electrolytes during heatwaves is to drink sports beverages or fruit juice. Check with your doctor before increasing your liquid intake if you have epilepsy or heart, kidney, or liver disease, are on fluid-restricted diets, or have a problem with fluid retention.",
+      "sectionPath": "Before (Prepare) > If you must go outdoors, take caution:",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What emergency items should I have for extreme heat?",
+      "answer": "Most important items: clean water, a phone to call for help, a first aid kit with wound supplies, air conditioning, and a device that receives emergency alerts. Other helpful items: an emergency kit, nonperishable food items, rehydration drinks, fans, and lightweight loose clothing.",
+      "sectionPath": "Before (Prepare) > If you must go outdoors, take caution:",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "How do I prevent heat illness in my kids?",
+      "answer": "Teach kids to always drink plenty of liquids before and during activity in hot, sunny weather — even if they're not thirsty. Kids should wear light-colored, loose clothing on hot days and use sunscreen when outdoors. On hot or humid days, limit outdoor activity during the hottest parts of the day. Teach kids to come indoors, rest, and hydrate right away whenever they feel overheated.",
+      "sectionPath": "Before (Prepare) > For Kids",
+      "phase": "Preparation",
+      "audience": "Kids"
+    },
+    {
+      "question": "What are the signs of heat exhaustion in children?",
+      "answer": "An elevated body temperature, usually between 100° and 104° Fahrenheit; cool, clammy skin despite the heat; goose bumps; fainting, dizziness or weakness; headache; increased sweating; increased thirst; irritability; muscle cramps; and nausea and/or vomiting. In babies, heatstroke signs include restlessness, rapid breathing, lethargy, irritability, and vomiting.",
+      "sectionPath": "Before (Prepare) > For Kids",
+      "phase": "Preparation",
+      "audience": "Kids"
+    },
+    {
+      "question": "How do pets get heatstroke?",
+      "answer": "Pets can get heatstroke and heat exhaustion in these situations: high humidity even if the temperature is lower; the pet does not take breaks from playing to cool off; not enough water in warm temperatures; pets left in a closed-up house on a hot day with no ventilation or air conditioning; or pets left inside a car, even if it does not seem hot outside. Heatstroke happens when a pet's body temperature rises above normal range (in dogs, above 103°F) and the pet can no longer dissipate heat — this can lead to multiple organ failure and death. Heatstroke can occur during hot weather, but also when a pet exercises excessively at normal temperatures.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I prevent heatstroke in my pet?",
+      "answer": "Never leave your pet unsupervised outside on hot days — keep your pet indoors with air conditioning. While outside, ensure your pet has access to fresh water, shade, and shelter away from direct sunlight. Take daily walks or jogs in the morning when temperatures are lower. Check the pavement first by placing your hand on the asphalt for 20 seconds — if it is too hot for your hand, it is too hot for your pet's feet and can cause painful burns. Avoid strenuous exercise when temperatures are high. Never leave your pet alone in a parked car — heat quickly builds even on sunny days that are not hot. On hot days, keep vulnerable pets (brachycephalic breeds, elderly and obese pets, and those with heart or lung disease) inside your air-conditioned home except for short outdoor bathroom breaks. Even in cooler temperatures, gradually introduce pets to exercise.",
+      "sectionPath": "Before (Prepare) > Preventing Heatstroke in Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "What are the signs of heatstroke in pets?",
+      "answer": "Excessive panting, excessive drooling, difficulty breathing, vomiting, diarrhea (with or without blood), weakness, incoordination or stumbling, sudden collapse, and seizures. Heatstroke is an emergency condition requiring immediate medical care — know where your emergency veterinarian options are.",
+      "sectionPath": "Before (Prepare) > Recognize the Signs of Heatstroke in Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I prevent heatstroke in farm animals?",
+      "answer": "Track weather conditions and have a plan for extreme heat. Be informed about the signs of heat stress and watch animals closely during hot weather — check them several times per day. Make sure all animals have access to plenty of fresh, cool water; troughs and waterers should be large enough and numerous enough for all animals, secured so they can't be knocked over, and located so animals don't have to walk far. Check water several times daily even with automatic systems, which can malfunction. Do not overcrowd pens. If size permits, animals should be moved inside into air conditioning; otherwise offer well-ventilated shelter from the sun — wind flow is important for preventing heatstroke. Outdoor poultry houses should be shaded with good airflow. Avoid transporting animals during extreme heat and avoid causing undue stress.",
+      "sectionPath": "Before (Prepare) > For Farm Animals",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "Which farm animals are at high risk for heat illness?",
+      "answer": "Young animals, dark colored animals, animals that have been sick or have had respiratory disease, heavy large cattle, pigs, alpacas and llamas, lactating cows, and newly shorn sheep.",
+      "sectionPath": "Before (Prepare) > For Farm Animals",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "What should people with disabilities do to stay safe in extreme heat?",
+      "answer": "Stay hydrated by drinking plenty of water and other fluids. Stay in a cool, shaded area as much as possible. Wear lightweight, loose-fitting clothing that is light in color. Avoid outdoor activities during the hottest times of the day. Use fans, air conditioners, or other cooling devices to keep your home cool. If you have difficulty regulating your body temperature, talk to your doctor for additional advice. Air conditioning assistance may be available through your local state public health or Department of County Human Services Weatherization Services, and the Low Income Home Energy Assistance Program (LIHEAP) can help pay heating or cooling bills.",
+      "sectionPath": "Before (Prepare) > For People with Disabilities",
+      "phase": "Preparation",
+      "audience": "Disabilities"
+    },
+    {
+      "question": "How should older adults prepare for extreme heat?",
+      "answer": "Stay hydrated by drinking plenty of water and other fluids. Stay in a cool, shaded area as much as possible. Wear lightweight, loose-fitting clothing that is light in color. Avoid outdoor activities during the hottest times of the day. Use fans, air conditioners, or other cooling devices to keep your home cool. If you cannot afford to buy or run an air conditioner, check with your local Area Agency on Aging for assistance programs like the Low Income Home Energy Assistance Program (LIHEAP).",
+      "sectionPath": "Before (Prepare) > For Older Adults",
+      "phase": "Preparation",
+      "audience": "Older Adults"
+    },
+    {
+      "question": "How do I recover after heat exhaustion?",
+      "answer": "Reduce your activities and get plenty of rest. Stay in a cool room for at least the next 24 hours. Drink plenty of rehydration drinks, juices, and water to replace fluids — sports drinks that contain electrolytes work best. Avoid drinks with caffeine or alcohol. You need salt and minerals as well as water; eating soft food or soup can decrease the pressure on your digestive system. Listen to your doctor for instructions on resuming your normal schedule. If you have kidney, heart, or liver disease and have to limit fluids or salt, talk with your doctor before increasing your fluid or salt intake. Know that side-effects may last 24-48 hours, including sweating a lot, fatigue, dizziness, or nausea.",
+      "sectionPath": "After (Recover) > For Adults",
+      "phase": "Recovery",
+      "audience": "Adults"
+    },
+    {
+      "question": "How does my pet recover from heatstroke?",
+      "answer": "Pets with heatstroke will need to be hospitalized, often for anywhere from 24 hours to many days. Your veterinarian will have specific instructions for caring for your pet. Pets that have had heatstroke may be more likely to have it again — to prevent another episode, do not allow your pet to become overheated. Your pet will need lots of rest during recovery; keep them well hydrated and eating. If internal organ damage has occurred, your pet may need special medications or diets — follow all directions from the veterinarian. Your pet may be stressed and frightened by the experience; provide plenty of comfort and reassurance, and be patient.",
+      "sectionPath": "After (Recover) > For Pets",
+      "phase": "Recovery",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do farm animals recover from heatstroke?",
+      "answer": "1. Follow your veterinarian's directions and give any prescribed medications as directed. 2. Provide adequate shade, fans, and/or air conditioning. 3. Keep your animals cool and comfortable to avoid repeat incidents. 4. Offer plenty of cool, clean water and nutritious food. 5. Allow animals plenty of time to rest and recover. 6. Keep animals as stress-free as possible. 7. Check your animals' pens, pastures, barns, and other living conditions to ensure they are protected from heat. 8. Track weather conditions and take action to keep animals cool with access to plenty of water. 9. Animals may be more prone to stress or tire more quickly after a heatstroke — be patient and attentive to their needs.",
+      "sectionPath": "After (Recover) > For Farm Animals",
+      "phase": "Recovery",
+      "audience": "Pets"
+    }
+  ]
+}

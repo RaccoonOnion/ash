@@ -1,0 +1,265 @@
+{
+  "packId": "eye-injury",
+  "packName": "Eye Injury",
+  "propositions": [
+    {
+      "question": "When should I seek emergency medical help for an eye injury?",
+      "answer": "Seek emergency medical help when an object is sticking out of the eye, the eye is cut and leaking fluids, or chemical got into the eye and the pain didn't go away after flushing with water for 20 minutes. Some eye injuries are not obvious but can be serious, causing vision loss or blindness. Even if the injury seems minor at first, it is important to have a doctor or ophthalmologist examine the eye as soon as possible. DO NOT attempt to treat a serious eye injury yourself.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "What do I do if an object is sticking out of someone's eye?",
+      "answer": "Stabilize the object and cover both eyes until removed by a professional. Do not attempt to remove the object yourself.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "What do I do if the eyeball is cut open or leaking fluid?",
+      "answer": "Do not touch it or bandage it. Do not try to stop bleeding with pressure. Help the hurt person sit upright and stay calm until help arrives. Monitor the person's breathing, especially if they have a lowered level of consciousness. If signs of shock appear, treat for shock.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "What are signs that an eye injury is serious enough to call a doctor?",
+      "answer": "Call your doctor if you see severe pain or deep aches in or around the eye, noticeable vision changes, eye swelling, blurred or double vision, a torn eyelid, headaches, flashing lights, spots, or shapes made up of shadows in your field of vision, redness in the eye (particularly around the iris), pain when exposed to bright light, an eye injury from an object hitting the eye at high speed, or foreign bodies that cannot be washed out.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "What should I avoid doing after an eye injury?",
+      "answer": "Do not rub your eye after an injury. Do not touch your eyeball with cotton swabs, tweezers, or other instruments. If you use contact lenses, do not wear them while your eye is healing.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I treat a chemical splash in the eye?",
+      "answer": "If possible, check the original chemical container for specific instructions or cleaning agents. 1. Immediately flush the eyes out with clean, lukewarm water for 20 minutes. 2. Have the person with the burn remove the chemical substance if they are able. 3. Put on gloves to protect yourself from the chemical if you need to remove it. 4. While flushing, take off any clothing or jewelry that has the chemical on it. 5. If eyes are still burning after 20 minutes, flush the area again with flowing water for 10 to 15 minutes. Hydrofluoric acid should be flushed with a large amount of water and treated with calcium gluconate — you will need immediate medical care.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I properly flush my eyes after a chemical exposure?",
+      "answer": "Using the shower: aim a gentle stream of water on your forehead over your affected eye, or direct the stream on the bridge of your nose if both eyes are affected, holding the lids of your affected eye(s) open. Using a faucet: put your head down and turn it to the side, then hold the lids of your affected eye open under a gently running water stream. If you have access to a worksite eye-rinse station, use it. Do not use a hard spray of water, because it can damage the burned area. It is better if complete water flushing happens immediately, but moving the exposed person to an emergency care facility earlier may be necessary depending on their condition (e.g., compromised airways, breathing, or circulation). If it is necessary to transport before completing flushing on-site, flushing should continue during emergency transport.",
+      "sectionPath": "During (React) > Ways you can flush your eyes:",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What are the signs of a serious eye injury that requires medical attention?",
+      "answer": "Ongoing pain in the eye, trouble seeing, a cut or torn eyelid, one eye does not move as well as the other, one eye sticks out of the eye socket farther than the other, the eye has an unusual pupil size or shape, there is blood in the clear part of the eye, the person has something in the eye or under the eyelid that tears and blinking can't remove, and if the white part of your eye is scratched you may see a spot of blood, a scratched line, or an area of general redness on your conjunctiva or sclera.",
+      "sectionPath": "During (React) > Ways you can flush your eyes:",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What are the symptoms of a minor eye injury?",
+      "answer": "Itchy eyes, dry eyes, eye pain, a feeling that something is stuck in your eye, tearing, blurry vision, sensitivity to light, and headache.",
+      "sectionPath": "During (React) > Ways you can flush your eyes:",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What do I do after a blow to the eye when the eye is still intact?",
+      "answer": "Apply a cold compress, but do not put pressure on the eye. To help with pain, use over-the-counter acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) as is safe with your other medical conditions. If there is bruising, bleeding, change in vision, or it hurts when your eye moves, see a doctor right away.",
+      "sectionPath": "During (React) > Ways you can flush your eyes:",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How do I remove a foreign object from my eye?",
+      "answer": "1. Do not rub the eye. 2. Gently pull the upper lid down and blink repeatedly. 3. If the particle is still there, rinse with eyewash. 4. If rinsing doesn't help, close the eye, bandage it lightly, and see a doctor.",
+      "sectionPath": "During (React) > Ways you can flush your eyes:",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What is a scratched eye (corneal abrasion) and how serious is it?",
+      "answer": "A scratched eye is a surface scratch to the eyeball by a foreign object or substance, where the eye does not appear to be punctured. Signs include eye pain, a feeling that something is stuck in your eye, tearing, blurry vision, sensitivity to light, and headache. Most corneal abrasions and eye scratches are minor and will heal on their own in a few days, but you should still see a doctor or ophthalmologist if you scratch your eye. If there's a lot of pain, you're having trouble seeing, or you're worried about your eye, go to the emergency room.",
+      "sectionPath": "During (React) > Ways you can flush your eyes:",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What should I do if I scratch my eye?",
+      "answer": "DO keep the eye clean — eye infections can become serious in less than 24 hours. DO rinse your eye with saline solution or clean water; if you don't have an eyecup, use a small clean glass and rest the rim on the bone at the base of your eye socket below your lower eyelid. DO blink — blinking can help get rid of small bits of dust or sand. DO pull your upper eyelid over your lower eyelid; the lashes from your lower eyelid may be able to brush away any foreign object caught underneath your upper eyelid. DO wear sunglasses if your eye is sensitive to light.",
+      "sectionPath": "During (React) > Eye Scratch Do's and Do Not's",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What should I avoid doing if I scratch my eye?",
+      "answer": "DO NOT rub your eye — rubbing can make the scratch worse. DO NOT patch your eye — bacteria like dark, warm places to grow; simply keep the eye closed or loosely tape a paper cup or eye shield over it. DO NOT touch your eye with anything — fingers, cotton swabs, and other objects won't help remove foreign objects and could hurt your eye more. The object that caused the scratch may be gone even though you still feel like something is in your eye. DO NOT wear your contact lenses — they will slow the healing process and could cause contact lens-related infections. DO NOT use redness-relieving eye drops — they can be painful on an eye scratch and won't help you heal any faster.",
+      "sectionPath": "During (React) > Eye Scratch Do's and Do Not's",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "When should I take a child to the emergency room for an eye injury?",
+      "answer": "Seek emergency medical help when an object is sticking out of the child's eye, the eye is cut and leaking fluids, or chemical got into the eye and the pain didn't go away after flushing with water for 20 minutes. Even if the injury seems minor at first, have a doctor or ophthalmologist examine the eye as soon as possible. DO NOT attempt to treat a serious eye injury yourself.",
+      "sectionPath": "During (React) > For Kids",
+      "phase": "Response",
+      "audience": "Kids"
+    },
+    {
+      "question": "How do I treat a chemical eye injury in a child?",
+      "answer": "If possible, check the original chemical container for specific instructions. 1. Immediately flush the child's eyes with clean, lukewarm water for 20 minutes. 2. Have the child remove the chemical substance if they are able. 3. Put on gloves to protect yourself if you need to remove the chemical. 4. While flushing, take off any clothing or jewelry that has the chemical on it. 5. If eyes are still burning after 20 minutes, flush again with flowing water for 10 to 15 minutes. Hydrofluoric acid needs immediate medical care with calcium gluconate treatment.",
+      "sectionPath": "During (React) > For Kids",
+      "phase": "Response",
+      "audience": "Kids"
+    },
+    {
+      "question": "What do I do if my pet's eyeball comes out of the socket?",
+      "answer": "It is a medical emergency when the eyeball comes out of the socket (proptosis) — veterinary treatment is needed as soon as possible to save the eye and eyesight. 1. Secure the animal — safely confine and seek emergency veterinary care immediately. The outcome is best when treatment is provided within 3 hours of injury. As long as the eyeball is being lubricated, a good outcome is still possible with vet care 4-6 hours after. 2. Confirm vet or emergency help — call ahead to find a veterinary hospital that can treat this; if after-hours, call your regular vet's office to listen for their recommended 24-hour hospital. Plan to make the trip even if 4-6 hours away — waiting for morning may result in loss of the eyeball. 3. Protect the eyeball. 4. Keep the eyeball moist (they quickly dry out when out of socket). 5. Keep the animal warm and calm.",
+      "sectionPath": "During (React) > For Pets",
+      "phase": "Response",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I safely handle a pet with an eye injury?",
+      "answer": "Before providing first aid, understand that pain, fear, and shock can cause any animal to bite. Stay calm to prevent escalating the situation and handle the animal with care. If a small dog or cat is experiencing this emergency: 1. Use a large towel over their head and entire body to wrap and lift them. 2. Bring them to a small, confined space such as a bathroom or covered crate away from others and loud noises. If you have a large dog who is not allowing you to come close, you may need a large comforter and a leash to move them to a similar quiet place.",
+      "sectionPath": "During (React) > For Pets",
+      "phase": "Response",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I transport a pet with an eye out of the socket?",
+      "answer": "1. Protect the eyeball from rubbing — use an E-collar (Elizabethan or lampshade collar) because they will want to rub or paw at the affected eye, which will cause more damage. 2. Try to keep the eyeball moist — soak gauze in saline or contact lens solution and gently cover all of the eyeball with the wet gauze. Remoisten and replace as soon as it dries out. If you do not have gauze, use several drops of human lubricating eye drops, reapplying every 15 minutes. Sterile water can be used in place of saline but will sting and should only be used as a last resort. 3. Keep your pet warm in a blanket — they are often cold from shock. 4. Remain calm and keep your injured pet away from other pets and people — they may feel vulnerable and could bite.",
+      "sectionPath": "During (React) > For Pets",
+      "phase": "Response",
+      "audience": "Pets"
+    },
+    {
+      "question": "How can I tell if an animal's eyeball is out of its socket?",
+      "answer": "Signs of proptosis include: the animal cannot blink, the eyeball(s) is bulging or hanging, the pink tissues surrounding the eye (conjunctiva) are red, swollen, and may have a bubble-like appearance, the white of the eye is red or bloody, the pupil of the affected eye is smaller or larger than the other eye's pupil, and the iris of the affected eye is cloudy.",
+      "sectionPath": "During (React) > For Pets",
+      "phase": "Response",
+      "audience": "Pets"
+    },
+    {
+      "question": "How should I prepare for a pet eye emergency vet visit?",
+      "answer": "The procedure may be costly. Most patients will be discharged the same day, but plan for the possibility of being away from home for several hours, particularly at an emergency hospital. Bring small dogs and cats in a carrier or secured in a cardboard box. Larger dogs should be on a harness and leash — avoid neck pressure by not attaching the leash to the collar. Restrain the pet carrier in the middle back seat by looping the seat belt shoulder strap through the carrier handle. Large dogs should have a seat belt attachment to their harness or the seatbelt passed through their harness. Keep car windows closed or only cracked, and be cautious opening the car door at the veterinary hospital before you have a hold on the dog's leash.",
+      "sectionPath": "During (React) > For Pets",
+      "phase": "Response",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I tell if a farm animal's eye is out of its socket?",
+      "answer": "Signs of proptosis include: the animal cannot blink, the eyeball is bulging or hanging, the pink tissues surrounding the eye (conjunctiva) are red, swollen, and may have a bubble-like appearance, the white of the eye is red or bloody, the pupil of the affected eye is smaller or larger than the other eye's pupil, and the iris of the affected eye is cloudy.",
+      "sectionPath": "During (React) > For Farm Animals",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How do I recognize a proptosis injury in wildlife?",
+      "answer": "Signs of proptosis include: the animal cannot blink, the eyeball is bulging or hanging, the pink tissues surrounding the eye (conjunctiva) are red, swollen, and may have a bubble-like appearance, the white of the eye is red or bloody, the pupil of the affected eye is smaller or larger than the other eye's pupil, and the iris of the affected eye is cloudy.",
+      "sectionPath": "During (React) > For Wildlife",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How can I prevent eye injuries?",
+      "answer": "Protect your eyes by wearing an eye guard or shield when there is risk that something could fly into your eye — such as during lawn care, home care, working with chemicals, or playing sports. If a tool breaks while you are using it, fix it or replace it before continuing. Read and follow the instructions while using chemicals like fertilizer or cleaning products, and never mix chemicals unless the label says to do so. Use machine guards and work screens while working with equipment on the job. Wear sunglasses that block 99%-100% of the sun's radiation.",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "What emergency supplies should I have for eye injuries?",
+      "answer": "Most important items: protective eye gear or goggles, sunglasses, a first aid kit with wound supplies, a phone to call for help, eye drops, and clean water. Other helpful items: medical gloves, clean water, saline solution, eye wash solution, eye drops, sunglasses, and bandages or gauze pads.",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "How can I teach my kids to prevent eye injuries?",
+      "answer": "Protect their eyes with an eye guard or shield when there is a risk that something could fly into the eye — like during lawn care, home care, working with chemicals, or playing sports. If a tool breaks while in use, fix or replace it before continuing. Read and follow instructions when using chemicals like fertilizer or cleaning products, and never mix chemicals unless the label says to do so. Use machine guards and work screens with equipment. Wear sunglasses that block 99%-100% of the sun's radiation.",
+      "sectionPath": "Before (Prepare) > For Kids",
+      "phase": "Preparation",
+      "audience": "Kids"
+    },
+    {
+      "question": "How can I prevent my pet's eye from coming out of its socket (proptosis)?",
+      "answer": "Traumatic injury is the most common cause of proptosis. Dog bite or animal attack: avoid known triggers among housemates and do not leave animals outdoors for long periods, especially at night. Being hit by a car: keep your companion animal on a leash when away from home, ensure yard fencing is secure, and spaying or neutering can reduce escape behaviors. Neck pressure from pulling on a leash attached to a collar: use a harness instead of a collar, especially for flat-faced breeds. Hitting the edge of the eye on an object (e.g., corner of a coffee table): restrict access to areas with objects at your animal's eye level. Choking: avoid offering treats or foods larger than bite-sized pieces.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "Which pet breeds are most at risk for eye injuries?",
+      "answer": "Facial bone structure makes some animals more at risk. Most susceptible dog breeds are short-nosed dogs with wide, prominent eyes (brachycephalic dogs): Pug, Pekingese, Boston Terrier, Chihuahua, Lhasa Apso, French Bulldog, Shih Tzu, English Bulldog, and mixes of these breeds. Most susceptible cat breeds (brachycephalic cats): Persian, Exotic Shorthair, Himalayan, some Scottish Fold, Burmese, Devon Rex, British Shorthair, and mixes of these breeds. If your pet is one of these breeds or a mix, observe precautions carefully.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "What general steps can I take to prevent eye injuries in my pet?",
+      "answer": "Avoid claw swipes and animal territory fights — teach pets to coexist peacefully or avoid proximity to aggressive animals. Take caution when allowing domesticated animals to roam free outdoors and watch out for areas of heavy underbrush. Keep pets secured and fully inside the car while driving (letting your dog stick their head out the window risks eye injury). Always keep dangerous chemicals out of reach of pets.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "How is an eye scratch treated long-term?",
+      "answer": "Your ophthalmologist may treat an eye scratch with antibiotic eye drops or ointment, prescription steroid eye drops to reduce inflammation and the chance of scarring, and lubricating eye drops to make you more comfortable. There are no over-the-counter eye drops specifically for eye scratches — if you have scratched your eye, you shouldn't use any eye drops without asking a doctor first.",
+      "sectionPath": "After (Recover) > For Adults",
+      "phase": "Recovery",
+      "audience": "Adults"
+    },
+    {
+      "question": "How long does an eye scratch take to heal?",
+      "answer": "Eyes often heal very quickly, so an eye scratch may heal faster than a cut on your skin would. But each scratch is different and there's no way to predict exactly how long it will take. Your ophthalmologist can tell you what to expect after they've examined your eye — ask how long you might be in pain, how long to take any prescribed medications, and whether there are any activities you should avoid while healing. If your symptoms go on longer than the doctor told you to expect, or get worse, contact your doctor.",
+      "sectionPath": "After (Recover) > For Adults",
+      "phase": "Recovery",
+      "audience": "Adults"
+    },
+    {
+      "question": "How is a child's eye scratch treated and how long does it take to heal?",
+      "answer": "An ophthalmologist may treat an eye scratch with antibiotic eye drops or ointment, prescription steroid eye drops to reduce inflammation and scarring, and lubricating eye drops for comfort. Do not use any eye drops without asking a doctor first — there are no over-the-counter eye drops specifically for eye scratches. Eyes often heal very quickly, but each scratch is different. Your ophthalmologist can tell you what to expect. If symptoms last longer than expected or get worse, contact the doctor.",
+      "sectionPath": "After (Recover) > For Kids",
+      "phase": "Recovery",
+      "audience": "Kids"
+    },
+    {
+      "question": "What happens at the vet hospital for a pet eye injury?",
+      "answer": "Your companion animal may need to be stabilized or treated for shock before they can be treated for the eye injury. The vet may be able to tell you at the first visit whether the eye and eyesight can be saved; sometimes this isn't certain until the recheck weeks later. If the eyeball cannot be saved, they will recommend surgical removal. Expect the procedure to take at least 3-4 hours, during which your pet will typically be under general anesthesia. Unless there are other medical issues, your dog or cat will usually go home the same day wearing a lampshade collar. You will be given a recovery treatment plan with prescribed medications. The vet will ask you to return in 3-4 weeks (sooner if there are issues) to have the stitches removed and the eye(s) rechecked.",
+      "sectionPath": "After (Recover) > For Pets",
+      "phase": "Recovery",
+      "audience": "Pets"
+    },
+    {
+      "question": "When should I call the vet during my pet's recovery from an eye injury?",
+      "answer": "Call the vet during your animal's recovery if you see increased swelling and discharge after the second day, the stitches open, the animal is not acting normally 36 hours or more after the surgery, excessive pawing or rubbing the affected eye(s), not eating, hiding, or not being active — or if you have any questions or concerns.",
+      "sectionPath": "After (Recover) > For Pets",
+      "phase": "Recovery",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I care for my pet at home after an eye injury?",
+      "answer": "If your pet is sent home with eye medication, apply it as directed by your vet. If more than one eye medication is prescribed, put drops in before applying ointments, and wait about five minutes between each medication. While the eye is healing, to prevent pawing, rubbing, or other hazards, your pet may need an E-collar (the cone) worn at all times unless the veterinarian gives exceptions. Depending on the diagnosis, treatment may be simple eye medication with a follow-up exam. Severe injuries may require surgical treatment, and your veterinarian may refer you to a veterinary ophthalmologist. In severe cases, surgical extraction of the eye (enucleation) may be needed. Some injuries may cause permanent blindness — but dogs still live happy, full lives while blind.",
+      "sectionPath": "After (Recover) > For Pets",
+      "phase": "Recovery",
+      "audience": "Pets"
+    },
+    {
+      "question": "What is the long-term outlook for a pet that has had proptosis?",
+      "answer": "While there may be vision changes, recovery from this serious injury is very possible. Sometimes with proptosis, other structures in and around the eye can also be damaged, in which case companion animals can experience long-term discomfort and other conditions. If one eye has been lost to proptosis, dogs and cats typically do quite well with only one eye. If the animal is a brachycephalic (flat-nosed, wide-eyed) breed, proptosis is not the only risk to their eyes — it will be important to keep up with annual exams to ensure the health of the remaining eye and avoid the risks that resulted in injury to the first eye.",
+      "sectionPath": "After (Recover) > For Pets",
+      "phase": "Recovery",
+      "audience": "Pets"
+    },
+    {
+      "question": "How can I help my pet adjust to blindness after losing both eyes?",
+      "answer": "If both eyes are lost to proptosis, dogs and cats are highly adaptable to blindness — they will rely heavily on other senses. With a sudden loss of vision, a newly blind animal will likely experience a period of vulnerability and anxiety. To help ease this transition and boost their confidence, create consistent routines: 1. Confine them to a small, hazard-free area at first. 2. As they get comfortable, gradually introduce them to the rest of the home.",
+      "sectionPath": "After (Recover) > For Pets",
+      "phase": "Recovery",
+      "audience": "Pets"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "packId": "extreme-cold",
+  "packName": "Extreme Cold",
+  "propositions": [
+    {
+      "question": "What should I do at home during extreme cold conditions?",
+      "answer": "Be prepared to remain indoors as much as possible. Bring your pets inside. Wear extra layers of clothing. Seal off a small section of your home to make it easier to trap heat — plastic sheeting or blankets over windows and doors can help. Setting up a tent in your home can help trap heat and keep you warm. Ensure you are ready for power outages.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I safely run a generator during extreme cold?",
+      "answer": "Carbon monoxide from generators is deadly and is completely colorless and odorless, so you won't know if it is there. Do not use a generator indoors or in partially enclosed spaces. Do not operate near open doors and windows. Using fans will not prevent carbon monoxide build-up in the home. Install battery-powered carbon monoxide alarms inside your home to alert you of dangerous levels.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "What should I do if I'm stranded in my car during extreme cold?",
+      "answer": "Tie a brightly colored cloth to your antenna. Move anything you might need from the trunk to the cab. Wrap your whole body in clothing and blankets. Do not fall asleep. Run your motor for 10 minutes every hour. Do not eat unmelted snow. Huddle for warmth.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "When should I call 911 for cold-weather injuries?",
+      "answer": "Call 9-1-1 or get emergency medical help if you see moderate or severe signs of hypothermia or frostbite.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I recognize hypothermia in someone?",
+      "answer": "A body temperature below 95°F (35°C) can be a sign of hypothermia. Early or mild symptoms: shivering, slurred speech or mumbling, poor judgment, numbness in hands and fingers, clumsiness or lack of coordination, drowsiness or very low energy. Moderate to severe symptoms: slow shallow breathing, weak pulse, bright red cold skin (in infants), trunk of the body feeling cold to the touch, cold pale or blue-gray skin, muscles becoming stiff, weakness or sleepiness, confusion, loss of consciousness, and shivering stops (which can happen if body temperature drops very low).",
+      "sectionPath": "During (React) > Hypothermia (Low Body Temperature)",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How do I treat someone with hypothermia?",
+      "answer": "1. Restore warmth slowly: Get the person indoors and away from the cold. Remove wet clothing and dry the person off if needed. Warm the person's trunk first, not hands and feet — warming extremities first can cause shock. Wrap them in blankets or put dry clothing on them. Do not immerse the person in warm water. If using hot water bottles or chemical hot packs, wrap them in cloth; do not apply directly to skin. 2. Begin CPR if necessary while warming the person — if they are not breathing, start CPR immediately. 3. Give warm fluids — give the person a warm drink if conscious; avoid caffeine or alcohol. 4. Keep body temperature up — once it begins to rise, keep the person dry and wrapped in a warm blanket, and wrap their head and neck as well.",
+      "sectionPath": "During (React) > Hypothermia (Low Body Temperature)",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What are the signs of frostbite?",
+      "answer": "Cold skin and a prickling feeling, numbness, red, white, bluish-white or grayish-yellow skin, hard or waxy-looking skin, clumsiness due to joint and muscle stiffness, and blistering after rewarming in severe cases.",
+      "sectionPath": "During (React) > Frostbite",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How do I treat frostbite?",
+      "answer": "1. Seek warmth as soon as possible. 2. Do not walk on frostbitten feet or toes. 3. Immerse the affected area in warm (not hot) water. 4. If no water is available, warm the affected area using body heat — the heat of an armpit can be used to warm affected fingers. 5. Do not rub affected areas. 6. Do not use any stove, heater, fireplace, or heating element to warm — frostbitten areas can be easily burned.",
+      "sectionPath": "During (React) > Frostbite",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How do I stay warm if I have to survive outside in extreme cold?",
+      "answer": "Dress in layers. Stay as dry as possible — a wet tent or clothing means cold; use a plastic bag or tarp over you if you don't have a waterproof layer. Insulate yourself by adding insulating items between layers: crumpled newspaper, foam pieces or blankets (much warmer than newspaper), plastic bags, or dry leaves if you have nothing else. Do NOT use fiberglass insulation — the tiny glass fibers will cut your skin and could cause infection. Keep your feet warm with layers of DRY socks, boots that cover your whole foot, ankle, and part of your leg, and consider plastic bags between sock layers for extra insulation.",
+      "sectionPath": "During (React) > Frostbite",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How do I create shelter outdoors in extreme cold?",
+      "answer": "Use a tent, blankets strung on a line from trees, or other items to shield you from wind and snow. Get yourself above the cold ground when you sleep — a piece of foam is the best option, while an air mattress or ground pad will not be as good. If wind is an issue, look for a natural feature that will block breezes (boulders, trees, or even a dense growth of tall grasses) and hug your tent up next to it. Low-lying areas are cold sinks; avoid these by moving to higher ground, but avoid summits where exposure to wind can be an issue.",
+      "sectionPath": "During (React) > Frostbite",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What foods help keep me warm overnight in extreme cold?",
+      "answer": "Try to get hot food right before you go to sleep. A hot meal can help you warm up and keep you warm enough to get into bed while your body still has heat. Fattier foods will be better for keeping you warm — cheese, canned beans, and cream of mushroom or cream of chicken soup. Drink alcohol moderately, if at all — alcoholic drinks can make you lose body heat. Try to get hydrated earlier in the day and be mindful of how much you drink before bed, since lots of fluids may force you to leave the warmth in the middle of the night.",
+      "sectionPath": "During (React) > Frostbite",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What do the different winter weather alerts mean?",
+      "answer": "Winter Storm Outlook: winter storm conditions possible in the next two to five days. Winter Storm Watch: winter storm conditions possible within the next 36 to 48 hours. Winter Weather Advisory: winter weather conditions expected to cause significant inconveniences and may be hazardous. Winter Storm Warning: life-threatening severe winter conditions have begun or will begin within 24 hours. Blizzard Warning: sustained winds of at least 35 mph, considerable falling or blowing snow, visibility reduced to less than a quarter mile, expected to last for three hours or longer.",
+      "sectionPath": "During (React) > Frostbite",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "Where can I find a warming shelter near me?",
+      "answer": "Search online for a warming center near you, or call 211. Libraries, shopping malls, and community centers can be warm places to avoid the cold.",
+      "sectionPath": "During (React) > Frostbite",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "When should I call 911 for a child in extreme cold?",
+      "answer": "Call 9-1-1 or get emergency medical help if you see moderate or severe signs of hypothermia or frostbite in a child.",
+      "sectionPath": "During (React) > For Kids",
+      "phase": "Response",
+      "audience": "Kids"
+    },
+    {
+      "question": "What are the signs of hypothermia in pets?",
+      "answer": "Whining, shivering, appears anxious, slows down or stops moving, weakness and difficulty walking, looking for warm places to burrow, muscle stiffness, lethargy, pale gums, cool body surfaces, confusion, and rectal temperature of under 98-99°F (37°C). Normal pet rectal temperature is 100.5-102.5°F (38-39.2°C).",
+      "sectionPath": "During (React) > For Pets",
+      "phase": "Response",
+      "audience": "Pets"
+    },
+    {
+      "question": "What does frostbite look like in pets?",
+      "answer": "Signs include discoloration of the skin (often pale, gray or bluish), coldness and/or brittleness of the area when touched, pain when you touch the body part(s), swelling of the affected area(s), blisters or skin ulcers, and areas of blackened or dead skin. As tissues thaw, they may become red and very painful. The most commonly affected areas are paws, ears, and tail. If an animal is wet or damp, these areas are more likely to get frostbite. Animals with heart disease, diabetes, or other conditions that cause reduced blood flow are at greater risk.",
+      "sectionPath": "During (React) > For Pets",
+      "phase": "Response",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I treat a pet with hypothermia?",
+      "answer": "Get your animal into a warm building or vehicle. Wrap them in blankets, towels, coats, etc. Rewarm slowly to prevent further injury. Do not use heating pads, as they can cause burns. Use warm methods, not hot methods. If possible, warm blankets on a radiator, in a clothes dryer, or using a hairdryer — but do not use the hairdryer on the animal. Place bottles of warm water next to your animal, keeping a couple layers of fabric between the bottle and your pet's skin to prevent burns. Get to the nearest veterinary office immediately and seek emergency help.",
+      "sectionPath": "During (React) > For Pets",
+      "phase": "Response",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I treat frostbite in a pet?",
+      "answer": "1. Seek veterinary medical attention right away. 2. Move your animal to a warm, dry area. If your animal has hypothermia, treat that first. Do not rub or massage the affected area. If you are outdoors, do not warm a frostbitten area if you cannot keep it warm — more cold exposure or refreezing will cause more severe tissue injury. Carefully warm the affected area with warm (NOT HOT) water at 104 to 108°F (40 to 42°C) — you should be able to comfortably place your hand in it. Apply warm water compresses or soak the affected area. Do not use direct dry heat such as a heating pad or hair dryer. After warming, pat your pet dry carefully — do not rub. Wrap your pet in dry warmed towels or blankets and go to the nearest veterinary hospital. Do not give pain medication unless instructed by your veterinarian — many human pain relievers including acetaminophen and aspirin can be toxic to dogs.",
+      "sectionPath": "During (React) > For Pets",
+      "phase": "Response",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I help farm animals survive extreme cold?",
+      "answer": "Give plenty of high quality feed. Always have fresh, unfrozen water available. Increase the amounts of hay, forage, and feed to help animals stay warm. Shelter animals indoors. Keep bedding dry and clean and remove dirty bedding frequently. Avoid keeping animals in muddy or slippery pens, which can cause foot problems and injuries. Keep gates and doorways clear of snow. Provide natural wind breaks like evergreen trees (trees that have lost their leaves do not work well). Check animals often — ears, tails, and genitals are at risk of frostbite damage. Provide extra heat as needed. Young and small animals are particularly vulnerable to cold stress. Blankets may be used but must be kept dry and checked often. Make sure animals are in good health and up-to-date on vaccines and deworming.",
+      "sectionPath": "During (React) > For Farm Animals",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "What winter supplies should I have ready at home?",
+      "answer": "Keep these winter-specific items ready: enough water and ready-to-eat food that requires little to no cooking, an alternate method of heating your home in case of a power outage, an electric space heater, blankets, flashlights and a battery-powered lantern, a manual can opener, a snow shovel, rock salt, and winter clothing items (socks, winter boots, gloves, mittens, heavy jackets, beanie).",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I prepare my home for extreme cold?",
+      "answer": "If planning on using your wood stove or fireplace, have it inspected, maintained, and cleaned. Have a smoke detector and carbon monoxide detector installed near heated areas. Insulate any pipes or water lines to your house, and know how to shut off the water. Letting hot water drip flow through your pipes can help prevent them from freezing.",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I prepare my car for winter?",
+      "answer": "Ensure regularly scheduled maintenance is completed on time. Have your radiator system serviced and check your antifreeze levels. Replace windshield wiper fluid with a wintertime mixture. Ensure your tires are in good condition, and if possible switch them to snow tires. Keeping your gas tank as full as possible in the winter will help avoid freezing in the fuel lines. Winter items to keep in your car: blankets, winter jacket, first aid kit, waterproof matches, windshield scraper, road map, paper towels, sand or kitty litter, tire chains, collapsible shovel, water, flashlight, and brightly colored cloth.",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "What items should I gather year-round to live outside in extreme cold?",
+      "answer": "Clothing layers — hold onto discarded warm winter coats (they can also be used as a pillow), boots that cover your whole foot, ankle, and part of your leg, gloves or mittens, thick socks (multiple pairs), and something to cover your head like a hoodie, knit hat, or beanie. Tent or shelter making materials — check for discarded tents at campsites, or string up blankets from trees for a makeshift shelter. Metallic survival blankets — often handed out at marathon finish lines and discarded; cover at least the torso area of your sleeping bag. Plastic bags — to keep clothing and bedding dry; find a big one to use as a poncho. Protective bedding — a mat or foam to protect from the cold ground (air mattresses easily transmit cold to your body).",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "How can I protect my child from hypothermia?",
+      "answer": "Cover your child's head, hands, and feet whenever your child might be in cold or wet weather. Keep your child as dry as you can. Have your child wear layers of loose clothing. Go indoors at regular intervals. Do not go out in cold weather when wet. Keep hands and head covered with mittens/hats. Keep feet covered with water-resistant boots. Pack a car kit with items you and your child will need to stay warm — fire-starting kits, a cigarette lighter, and extra clothing. Having a sleeping bag in the car can be helpful, since you and your child can warm up more easily by sharing the bag.",
+      "sectionPath": "Before (Prepare) > For Kids",
+      "phase": "Preparation",
+      "audience": "Kids"
+    },
+    {
+      "question": "How do I shelter an outdoor dog in extreme cold?",
+      "answer": "Provide a sturdy, waterproof wooden shelter or doghouse. The house should be raised off the ground by at least 2 inches on blocks or a pallet. Install a flap over the entrance. The doghouse must be large enough for a dog to stand up, turn around, and lie down comfortably — but small enough for the dog's body heat to warm it. Provide dry bedding like straw to insulate the shelter — do not use blankets, towels, or hay because they can become wet and freeze. Place the shelter where it will be protected from wind. Plastic houses or barrels are not adequate shelter. Water must always be available in a heavy bucket or anchored dish that cannot be knocked over; check several times daily to make sure it has not frozen. Give extra food daily to help dogs stay warm.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I shelter an outdoor cat in extreme cold?",
+      "answer": "Provide a waterproof, windproof shelter that is elevated off the ground by at least 2 inches — pallets work well. Shelters can be made from lumber, Rubbermaid tubs, or repurposed small doghouses. Doors should only be large enough for cats to enter and face away from the wind. Shelters should measure around 2 feet by 3 feet and at least 18 inches high. The cat should be able to comfortably stand, turn around, and lie down, but the shelter should be small enough for the cat's body heat to warm it. Install a flap over the entrance. Provide straw for insulation and bedding — don't use hay, towels, or blankets as these can become wet and freeze. Clear snow promptly from shelter entrances. Use heated bowls for water and wet food. Give extra food daily to help cats stay warm.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "Why should I honk before starting my car in winter?",
+      "answer": "Cats will sleep under the hoods of cars for warmth. Before starting any vehicle, honk the horn or knock on the hood and give them a chance to leave. Outdoor cats hiding under car hoods can be killed or severely injured when the engine starts.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I prepare my pet for winter?",
+      "answer": "Bring them inside — no pet should ever be left outside in cold weather. Schedule an exam with your veterinarian; cold weather can cause some medical conditions like arthritis to get worse. Make sure collars and microchips are updated with the most current information. Know your pet's tolerance for cold — dogs may need shorter walks or different routes depending on age, breed, and coat length; use coats, sweaters, or properly-fitting booties if needed. Be aware that short-haired and short-legged dogs, animals with diabetes/heart disease/kidney disease/hormonal imbalances, and very young or very old animals are more susceptible to cold. When walking your dog, avoid ice and frozen bodies of water, check paws frequently for cold injuries, and wipe down your dog's feet, belly, and legs when you return from the walk to remove chemicals (deicers and antifreeze are toxic). Never leave your animal in a vehicle unattended. Have a resilience kit prepared in case of power outages.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "What should people with disabilities do to prepare for extreme cold?",
+      "answer": "Keep warm by wearing layers of loose-fitting clothing, a hat, gloves, and a scarf, and use a blanket or sleeping bag if you lose power or heat. Insulate your home and prevent drafts from around windows and doors. Use heating equipment safely and have it serviced and inspected regularly. Never use a stove or oven to heat your home. Have an emergency supply kit with non-perishable food, water, medications, a first aid kit, a flashlight, and any necessary mobility devices. Keep a list of emergency phone numbers and essential documents in an easily accessible location. If you use medical equipment that requires electricity, have a backup plan — consider a generator or backup battery. Stay informed about weather conditions and follow instructions from local authorities.",
+      "sectionPath": "Before (Prepare) > For People with Disabilities",
+      "phase": "Preparation",
+      "audience": "Disabilities"
+    },
+    {
+      "question": "How can I help an older adult avoid hypothermia during winter?",
+      "answer": "Consider having a remote indoor air temperature sensor or monitor installed. Have the name and contact information of a nearby family member or friend who can regularly check in. Create a care plan that includes ways to maintain a healthy body temperature and note if any medicines they take affect their ability to regulate body temperature. Check in on them in person or by phone call as often as possible to make sure they are staying hydrated, have the living space set to a comfortable temperature, are keeping warm, and don't show signs of hypothermia.",
+      "sectionPath": "Before (Prepare) > For Older Adults",
+      "phase": "Preparation",
+      "audience": "Older Adults"
+    },
+    {
+      "question": "How can I help wildlife survive extreme cold?",
+      "answer": "Provide fresh water daily in shallow bowls so small animals do not fall in and drown. Replace water or break ice if frozen so animals can drink. Put out food like nuts, vegetables, and fruit. Provide bird feed and set up bird feeders. If you have a pond or water source on your property, break the ice so animals can access water. Let your garden or yard grow wild if possible — leave areas of brush and piles of leaves where animals can shelter. Have a compost heap where animals can shelter. Rodent-proof your home: seal up any points of access, keep food areas clean, store food and pet food in sealed bins, and set up bird feeders away from the house.",
+      "sectionPath": "Before (Prepare) > For Wildlife",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "What should I do to recover after a winter storm?",
+      "answer": "Heavy fallen snow may cause damage or collapses of roofs, power lines, and trees — ensure you and your family avoid any downed power lines as they can cause electrical shock. Water pipes may freeze and burst from the cold; insulating pipes helps prevent freezing, and ensure all outdoor faucets are closed and shut off. Minimize driving after a blizzard, as roads will possibly be frozen and covered in snow.",
+      "sectionPath": "After (Recover)",
+      "phase": "Recovery",
+      "audience": "General"
+    },
+    {
+      "question": "What should I do if my water pipes freeze?",
+      "answer": "Open up the faucet to help melt the ice. Wrap a heating blanket around the pipes. Aim a hair dryer at the pipe. Use a space heater to warm the area around the pipes.",
+      "sectionPath": "After (Recover)",
+      "phase": "Recovery",
+      "audience": "General"
+    }
+  ]
+}

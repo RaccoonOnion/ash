@@ -1,0 +1,497 @@
+[
+  {
+    "packId": "active-shooter",
+    "packName": "Active Shooter",
+    "version": "1.0",
+    "chunkCount": 43,
+    "sourceFile": "active-shooter.md",
+    "fileSizeBytes": 187146,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "alcohol-poisoning",
+    "packName": "Alcohol Poisoning",
+    "version": "1.0",
+    "chunkCount": 14,
+    "sourceFile": "alcohol-poisoning.md",
+    "fileSizeBytes": 61781,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "assault",
+    "packName": "Assault",
+    "version": "1.0",
+    "chunkCount": 23,
+    "sourceFile": "assault.md",
+    "fileSizeBytes": 99686,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "avalanche",
+    "packName": "Avalanche",
+    "version": "1.0",
+    "chunkCount": 21,
+    "sourceFile": "avalanche.md",
+    "fileSizeBytes": 93598,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "bleeding",
+    "packName": "Bleeding",
+    "version": "1.0",
+    "chunkCount": 29,
+    "sourceFile": "bleeding.md",
+    "fileSizeBytes": 127163,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "blizzard",
+    "packName": "Blizzard",
+    "version": "1.0",
+    "chunkCount": 17,
+    "sourceFile": "blizzard.md",
+    "fileSizeBytes": 75141,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "blood-contact-safety",
+    "packName": "Blood Contact Safety",
+    "version": "1.0",
+    "chunkCount": 26,
+    "sourceFile": "blood-contact-safety.md",
+    "fileSizeBytes": 112449,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "building-collapse",
+    "packName": "Building Collapse",
+    "version": "1.0",
+    "chunkCount": 17,
+    "sourceFile": "building-collapse.md",
+    "fileSizeBytes": 78221,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "burn-injury",
+    "packName": "Burn Injury",
+    "version": "1.0",
+    "chunkCount": 22,
+    "sourceFile": "burn-injury.md",
+    "fileSizeBytes": 97082,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "car-accident",
+    "packName": "Car Accident",
+    "version": "1.0",
+    "chunkCount": 25,
+    "sourceFile": "car-accident.md",
+    "fileSizeBytes": 111510,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "choking",
+    "packName": "Choking",
+    "version": "1.0",
+    "chunkCount": 18,
+    "sourceFile": "choking.md",
+    "fileSizeBytes": 80227,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "cicada-brood",
+    "packName": "Cicada Brood",
+    "version": "1.0",
+    "chunkCount": 17,
+    "sourceFile": "cicada-brood.md",
+    "fileSizeBytes": 72224,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "civil-unrest",
+    "packName": "Civil Unrest",
+    "version": "1.0",
+    "chunkCount": 38,
+    "sourceFile": "civil-unrest.md",
+    "fileSizeBytes": 172990,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "cpr",
+    "packName": "Cpr",
+    "version": "1.0",
+    "chunkCount": 29,
+    "sourceFile": "cpr.md",
+    "fileSizeBytes": 125282,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "crowd-crush",
+    "packName": "Crowd Crush",
+    "version": "1.0",
+    "chunkCount": 28,
+    "sourceFile": "crowd-crush.md",
+    "fileSizeBytes": 119349,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "dam-and-levee-failure",
+    "packName": "Dam & Levee Failure",
+    "version": "1.0",
+    "chunkCount": 68,
+    "sourceFile": "dam-&-levee-failure.md",
+    "fileSizeBytes": 304930,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "dirty-drinking-water",
+    "packName": "Dirty Drinking Water",
+    "version": "1.0",
+    "chunkCount": 47,
+    "sourceFile": "dirty-drinking-water.md",
+    "fileSizeBytes": 213058,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "dust-storm",
+    "packName": "Dust Storm",
+    "version": "1.0",
+    "chunkCount": 18,
+    "sourceFile": "dust-storm.md",
+    "fileSizeBytes": 79582,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "earthquake",
+    "packName": "Earthquake",
+    "version": "1.0",
+    "chunkCount": 45,
+    "sourceFile": "earthquake.md",
+    "fileSizeBytes": 196288,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "emergency-items",
+    "packName": "Emergency Items",
+    "version": "1.0",
+    "chunkCount": 38,
+    "sourceFile": "emergency-items.md",
+    "fileSizeBytes": 176315,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "extreme-cold",
+    "packName": "Extreme Cold",
+    "version": "1.0",
+    "chunkCount": 33,
+    "sourceFile": "extreme-cold.md",
+    "fileSizeBytes": 144963,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "extreme-heat",
+    "packName": "Extreme Heat",
+    "version": "1.0",
+    "chunkCount": 28,
+    "sourceFile": "extreme-heat.md",
+    "fileSizeBytes": 122573,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "eye-injury",
+    "packName": "Eye Injury",
+    "version": "1.0",
+    "chunkCount": 37,
+    "sourceFile": "eye-injury.md",
+    "fileSizeBytes": 162305,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "fire",
+    "packName": "Fire",
+    "version": "1.0",
+    "chunkCount": 59,
+    "sourceFile": "fire.md",
+    "fileSizeBytes": 261420,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "flash-flood",
+    "packName": "Flash Flood",
+    "version": "1.0",
+    "chunkCount": 37,
+    "sourceFile": "flash-flood.md",
+    "fileSizeBytes": 165816,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "flood",
+    "packName": "Flood",
+    "version": "1.0",
+    "chunkCount": 42,
+    "sourceFile": "flood.md",
+    "fileSizeBytes": 185199,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "food:-safety-and-poisoning",
+    "packName": "Food: Safety & Poisoning",
+    "version": "1.0",
+    "chunkCount": 35,
+    "sourceFile": "food:-safety-&-poisoning.md",
+    "fileSizeBytes": 152358,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "gas-leak",
+    "packName": "Gas Leak",
+    "version": "1.0",
+    "chunkCount": 17,
+    "sourceFile": "gas-leak.md",
+    "fileSizeBytes": 71957,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "gunshot-wound",
+    "packName": "Gunshot Wound",
+    "version": "1.0",
+    "chunkCount": 18,
+    "sourceFile": "gunshot-wound.md",
+    "fileSizeBytes": 77991,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "hail",
+    "packName": "Hail",
+    "version": "1.0",
+    "chunkCount": 8,
+    "sourceFile": "hail.md",
+    "fileSizeBytes": 34765,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "hate-crimes",
+    "packName": "Hate Crimes",
+    "version": "1.0",
+    "chunkCount": 42,
+    "sourceFile": "hate-crimes.md",
+    "fileSizeBytes": 194827,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "hazardous-materials-release",
+    "packName": "Hazardous Materials Release",
+    "version": "1.0",
+    "chunkCount": 58,
+    "sourceFile": "hazardous-materials-release.md",
+    "fileSizeBytes": 271212,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "head-injury",
+    "packName": "Head Injury",
+    "version": "1.0",
+    "chunkCount": 45,
+    "sourceFile": "head-injury.md",
+    "fileSizeBytes": 199830,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "human-stampede",
+    "packName": "Human Stampede",
+    "version": "1.0",
+    "chunkCount": 22,
+    "sourceFile": "human-stampede.md",
+    "fileSizeBytes": 97058,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "hurricane",
+    "packName": "Hurricane",
+    "version": "1.0",
+    "chunkCount": 29,
+    "sourceFile": "hurricane.md",
+    "fileSizeBytes": 127642,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "needles-and-sharps-handling",
+    "packName": "Needles And Sharps Handling",
+    "version": "1.0",
+    "chunkCount": 21,
+    "sourceFile": "needles-and-sharps-handling.md",
+    "fileSizeBytes": 92354,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "nuclear-bomb",
+    "packName": "Nuclear Bomb",
+    "version": "1.0",
+    "chunkCount": 31,
+    "sourceFile": "nuclear-bomb.md",
+    "fileSizeBytes": 144530,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "oil-spills-and-pipeline-leaks",
+    "packName": "Oil Spills & Pipeline Leaks",
+    "version": "1.0",
+    "chunkCount": 33,
+    "sourceFile": "oil-spills-&-pipeline-leaks.md",
+    "fileSizeBytes": 151860,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "overdose",
+    "packName": "Overdose",
+    "version": "1.0",
+    "chunkCount": 40,
+    "sourceFile": "overdose.md",
+    "fileSizeBytes": 181389,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "power-outage",
+    "packName": "Power Outage",
+    "version": "1.0",
+    "chunkCount": 20,
+    "sourceFile": "power-outage.md",
+    "fileSizeBytes": 93863,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "pregnancy-and-birth",
+    "packName": "Pregnancy And Birth",
+    "version": "1.0",
+    "chunkCount": 44,
+    "sourceFile": "pregnancy-and-birth.md",
+    "fileSizeBytes": 198013,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "robbery--theft",
+    "packName": "Robbery  Theft",
+    "version": "1.0",
+    "chunkCount": 15,
+    "sourceFile": "robbery--theft.md",
+    "fileSizeBytes": 69595,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "seizure",
+    "packName": "Seizure",
+    "version": "1.0",
+    "chunkCount": 28,
+    "sourceFile": "seizure.md",
+    "fileSizeBytes": 126071,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "severe-weather",
+    "packName": "Severe Weather",
+    "version": "1.0",
+    "chunkCount": 15,
+    "sourceFile": "severe-weather.md",
+    "fileSizeBytes": 68058,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "sexual-assault",
+    "packName": "Sexual Assault",
+    "version": "1.0",
+    "chunkCount": 54,
+    "sourceFile": "sexual-assault.md",
+    "fileSizeBytes": 261538,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "sexually-transmitted-infection",
+    "packName": "Sexually Transmitted Infection",
+    "version": "1.0",
+    "chunkCount": 19,
+    "sourceFile": "sexually-transmitted-infection.md",
+    "fileSizeBytes": 86576,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "shock",
+    "packName": "Shock",
+    "version": "1.0",
+    "chunkCount": 17,
+    "sourceFile": "shock.md",
+    "fileSizeBytes": 77343,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "stalking-and-cyberstalking",
+    "packName": "Stalking & Cyberstalking",
+    "version": "1.0",
+    "chunkCount": 20,
+    "sourceFile": "stalking-&-cyberstalking.md",
+    "fileSizeBytes": 97637,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "suicide",
+    "packName": "Suicide",
+    "version": "1.0",
+    "chunkCount": 49,
+    "sourceFile": "suicide.md",
+    "fileSizeBytes": 245681,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "tornado",
+    "packName": "Tornado",
+    "version": "1.0",
+    "chunkCount": 23,
+    "sourceFile": "tornado.md",
+    "fileSizeBytes": 101938,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "tsunami",
+    "packName": "Tsunami",
+    "version": "1.0",
+    "chunkCount": 12,
+    "sourceFile": "tsunami.md",
+    "fileSizeBytes": 55589,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "volcano",
+    "packName": "Volcano",
+    "version": "1.0",
+    "chunkCount": 25,
+    "sourceFile": "volcano.md",
+    "fileSizeBytes": 115009,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "wildfire-and-wildfire-smoke",
+    "packName": "Wildfire And Wildfire Smoke",
+    "version": "1.0",
+    "chunkCount": 44,
+    "sourceFile": "wildfire-and-wildfire-smoke.md",
+    "fileSizeBytes": 219661,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "winter-storm",
+    "packName": "Winter Storm",
+    "version": "1.0",
+    "chunkCount": 32,
+    "sourceFile": "winter-storm.md",
+    "fileSizeBytes": 152700,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  },
+  {
+    "packId": "wound",
+    "packName": "Wound",
+    "version": "1.0",
+    "chunkCount": 40,
+    "sourceFile": "wound.md",
+    "fileSizeBytes": 178072,
+    "embeddingModelVersion": "all-MiniLM-L6-v2-r5"
+  }
+]

@@ -1,0 +1,49 @@
+name: ash
+description: Ash — offline survival assistant with on-device AI
+publish_to: 'none'
+version: 1.4.0+6
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_gemma: ^0.15.3
+  flutter_onnxruntime: ^1.7.0
+  objectbox: ^5.3.1
+  objectbox_flutter_libs: ^5.3.1
+  path_provider: ^2.1.5
+  image_picker: ^1.1.0
+  flutter_tts: ^4.2.0
+  # Apple SFSpeechRecognizer on iOS — streaming partials, no model download,
+  # better accuracy than Whisper-tiny. The `record` package and the bundled
+  # Whisper ONNX assets are gone in favor of this.
+  speech_to_text: ^7.0.0
+  # Markdown rendering for assistant bubbles — bold, italic, code, lists,
+  # headings, blockquotes etc. Replaces our hand-rolled line parser. The
+  # community-maintained fork of flutter_markdown (now discontinued).
+  flutter_markdown_plus: ^1.0.0
+  # Native share sheet (used by "Share Ash" on the You page) — clipboard
+  # fallback was working but the native sheet is what users expect on iOS.
+  share_plus: ^12.0.0
+  # Open URLs in the system browser — Settings → "View on GitHub" + any
+  # future help / changelog links.
+  url_launcher: ^6.3.1
+  # Light-touch persistence for user preferences that should survive
+  # across launches but don't belong in ObjectBox (voice selection, speech
+  # rate). iOS-backed by NSUserDefaults so it survives app updates.
+  shared_preferences: ^2.3.0
+
+dev_dependencies:
+  build_runner: ^2.4.11
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  objectbox_generator: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/
+    - assets/rag/packs/

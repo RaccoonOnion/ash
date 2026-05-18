@@ -1,0 +1,132 @@
+{
+  "packId": "dust-storm",
+  "packName": "Dust Storm",
+  "propositions": [
+    {
+      "question": "What should I do indoors during a dust storm?",
+      "answer": "Make sure your home is well sealed.\n\n1. Ensure you and your family are indoors during a dust storm. If you cannot make it to your home, find the closest building.\n2. Check door and window seals. Make sure they are not damaged and provide a good seal. Duct tape and plastic sheeting can help provide a good seal.\n3. Know how to block off all your vents. This could be under-house vents or air-intake vents for your HVAC system.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "I'm caught outside in a dust storm. Where should I take shelter?",
+      "answer": "Find a location that is protected from the storm:\n- Side of a building\n- Underneath a vehicle\n- Stay away from open areas\n\nFind something to cover your mouth that will help filter the dust:\n- Thick clothing\n- Face mask\n\nCover your eyes, nose, and mouth before the storm hits.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "What should I do if I'm driving when a dust storm hits?",
+      "answer": "Stop. Pull off the road as far as safely possible.\n- Turn off your car.\n- Ensure your windows, doors, and vents are closed.\n- Ensure your lights are off. Drivers behind you may think you're still on the road and may follow you off the road if your lights are on.\n- If unable to find a spot to pull off, keep your lights on and honk your horn continuously until you are able to safely pull off.\n- Wait out the storm. Do not try and change locations.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "What dangers can a dust storm cause?",
+      "answer": "Dust storms can:\n- Damage your house\n- Damage vehicles\n- Cause traffic issues\n- Cause power outages\n- Cause health issues (dust particles become airborne and can be inhaled, eye irritation, allergy, asthma, or COPD aggravation)\n\nDust storms typically do not last very long, but can be very dangerous.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "What are the warning signs of a dust storm?",
+      "answer": "Dust storms strike with little warning. Dust storms can happen anywhere in the United States but are most common in the southwest.\n\nA dust storm usually arrives as an advancing wall of dust and debris. This storm can be miles long and several thousand feet high.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I secure my home when a dust storm is approaching?",
+      "answer": "- Close and seal windows and doors: Shut all windows and exterior doors tightly to keep dust from entering. Use weather stripping or tape to seal any gaps around windows and doors.\n- Reinforce fragile items: Secure or bring indoors any loose objects outside that could become projectiles. Move potted plants, patio furniture, and other lightweight items to a safe area.\n- Create a safe room: Choose a room with the fewest windows and doors (like a bathroom or closet). Stay in this room during the storm to minimize dust exposure.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I help my kids stay calm during a dust storm?",
+      "answer": "Model calm behavior: Children may copy the reactions of adults around them and will learn ideas for how to take care of themselves from what parents and caregivers do.\n\nProvide simple but accurate information: When in a dust storm, be patient and have a steady voice when speaking to children. Remember, they are most likely scared.\n\nEncourage comforting or distracting activities: Children may benefit from doing slow breathing to calm their bodies, having a stuffed animal or blanket to hold, or engaging in simple activities to keep distracted when sheltering inside.\n\nPractice self-care: Parents and caregivers may benefit from finding opportunities to take a moment, express their feelings, acknowledge that it is a scary situation, and engage in a coping strategy.",
+      "sectionPath": "During (React) > For Kids",
+      "phase": "Response",
+      "audience": "Kids"
+    },
+    {
+      "question": "How do I keep my pet safe during a dust storm?",
+      "answer": "Stay calm and reassure your pet: Talk to your pet in a soothing voice to help them feel safe and secure.\n\nKeep them inside: Bring your pet indoors where it is safe. Dust storms can be scary for animals.\n\nOffer water and comfort: Make sure your pet has fresh water and their favorite toys to help them feel at ease.",
+      "sectionPath": "During (React) > For Pets",
+      "phase": "Response",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I prepare for a dust storm?",
+      "answer": "1. Know if your area is prone to dust storms. Dust storms typically occur in dry, arid regions.\n\n2. Keep additional items in your emergency items kit that are specifically for dust storms:\n- A face mask or dense cotton fabric (to protect your breathing)\n- Airtight goggles (to keep dust out of the eyes)\n- A blanket or heavy clothes\n- Duct tape\n- Plastic sheeting\n\n3. Listen to official weather alerts. Staying aware of a dust storm and being prepared for one are the best ways to handle a dust storm.",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "What clothing and protective gear should I wear in a dust storm?",
+      "answer": "Choose clothing such as long-sleeved shirts, long pants, and sturdy shoes.\n- Select lightweight, breathable fabrics like cotton or linen. Avoid shorts or skirts.\n- Use respirator masks.\n\nRespirator masks:\n- Adjust the nosepiece for a secure fit and perform a seal check before use.\n- Replace masks if they become damp or damaged.\n\nProtect your eyes:\n- Wear impact-resistant eyewear to shield your eyes from dust and debris. If the storm also has lots of sunlight, opt for UV-protective eyewear.\n- Dress in layers so you can adjust to changing temperatures or conditions.",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I prepare my family with children for a dust storm?",
+      "answer": "Emergency Bag: It should have first aid kits, snacks, water, clothes, flashlights, medications, and other items you feel are essential.\n\nDisaster Plan: Develop and practice with your family to prepare for what to do, where to go, how to find each other, and how to communicate during any disaster.\n\nUnderstand the different weather alerts: It is important to pay attention to warnings and advisories about dust storms in your area.\n\nPlan for children's needs: Families should give children factual information about dust storms in simple terms.",
+      "sectionPath": "Before (Prepare) > For Kids",
+      "phase": "Preparation",
+      "audience": "Kids"
+    },
+    {
+      "question": "How do I prepare my pets for a dust storm?",
+      "answer": "Make a dedicated room for your pets to stay in during a dust storm. Ensure all windows and doors for that room are shut and sealed to prevent dust from getting in.\n\nHave a pet first aid kit prepared to treat any possible wounds.\n\nDuring the dust storm: Bring your pets inside and keep them inside.\n\nAfter the dust storm: Check your yard or property for anything that might have blown in and could injure your pet.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I prepare for a dust storm if I have a disability?",
+      "answer": "Mobility Disability:\n- Prepare a \"Go-Bag\". Fill it with water, snacks, flashlight, and medicines. Keep it in an easy-to-reach spot.\n- Have a plan. Talk to family or caregivers about what to do during a dust storm. Let them know if you need extra help moving around.\n- Use mobility aids. Be careful indoors with walkers, canes, or wheelchairs. Avoid tripping over moved objects.\n\nHearing Disability:\n- Get alerts. Have a special alarm or device with flashing lights for important alerts.\n- Communicate: let family or neighbors know how to get your attention if something is important.\n\nVisual Disability:\n- Keep important things handy. Place medicines, flashlight, glasses, or tools in an easy-to-find spot.\n- Buddy System. Have a friend or family member nearby to help you move.\n\nCognitive Disability:\n- Make a simple plan. Know where to go and who to talk to during a dust storm.\n- Keep a list of important phone numbers.\n- Use visual aids. Use pictures or symbols to help you remember what to do.",
+      "sectionPath": "Before (Prepare) > For People with Disabilities",
+      "phase": "Preparation",
+      "audience": "Disabilities"
+    },
+    {
+      "question": "How should older adults prepare for a dust storm?",
+      "answer": "- Have extra medication that will last at least one week if you must stay indoors for a few days.\n- Avoid going outside, as dust can make it harder to breathe.\n- Drink plenty of water even if you are indoors.\n- Use mobility aids safely. If you have a walker, cane, or wheelchair, avoid tripping over objects that might move during the storm.\n- Keep a list of significant phone numbers handy in case you need help.\n\nRemember, it is always better to be safe and prepared. Ask your family or healthcare provider for more advice if there are concerns.",
+      "sectionPath": "Before (Prepare) > For Older Adults",
+      "phase": "Preparation",
+      "audience": "Older Adults"
+    },
+    {
+      "question": "What short-term health symptoms might I have after a dust storm?",
+      "answer": "You may experience the following symptoms:\n\nRespiratory issues: Coughing, wheezing, shortness of breath, and irritated airways.\n\nEye irritation: Redness and itching.\n\nSkin redness: Itching of the skin due to contact with dust.\n\nWorsening allergies: Worsening of existing allergies or development of new sensitivities to dust-related allergens.\n\nReduced sight: Difficulty seeing while driving and doing outdoor activities.\n\nYou also may have damage to cars, outdoor equipment, and surfaces.",
+      "sectionPath": "After (Recover) > For Adults",
+      "phase": "Recovery",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I clean and protect my home after a dust storm?",
+      "answer": "Clean and maintain your air conditioner: Make sure the power is off, then rinse the unit with a hose, washing away any dust that may have settled on the appliance.\n\nCheck the ducts for loose connections or dust:\n- Inspect the condensation line.\n- Vacuum the evaporator coil if you can access it.\n\nIncrease ventilation to remove airborne dust:\n- Fans and vents can help keep air moving. This will keep dust from settling in the home.\n- Use an indoor air purifier. If you have ventilation, use an air purifier to capture some of the moving airborne dust.",
+      "sectionPath": "After (Recover) > For Adults",
+      "phase": "Recovery",
+      "audience": "Adults"
+    },
+    {
+      "question": "What long-term health and emotional effects can follow a dust storm?",
+      "answer": "Chronic health conditions:\n- Breathing problems: some people may continue to have trouble breathing.\n- Allergies: new allergies might pop up, or existing ones could worsen because of the dust.\n- Lung conditions: The dust storm might make breathing harder for those with asthma.\n- Visit the doctor if you are having ongoing health issues.\n- If a doctor gives you medicine, make sure to take it as prescribed.\n\nPsychological Impact:\n- Feeling worried or stressed after a big dust storm is normal. It may be helpful to reflect on positive outcomes so that you remain optimistic.\n- Do things you like, such as drawing, reading, or spending time with loved ones.\n- Activities like deep breathing, meditation, or yoga can help reduce stress.\n- Limit your exposure to news outlets. Too much exposure can contribute to stress and anxiety.\n- Take care of your physical and emotional well-being. Get rest, eat nutritious meals, and engage in activities that bring you joy.\n- If you are struggling, consider a therapist or counselor who can provide support.\n- Remember that recovering from a dust storm is a process. Give yourself time and be kind to yourself along the way.",
+      "sectionPath": "After (Recover) > For Adults",
+      "phase": "Recovery",
+      "audience": "Adults"
+    },
+    {
+      "question": "How do I help my pet recover after a dust storm?",
+      "answer": "Check for any injuries: Look over your pet to make sure they are not hurt.\n\nKeep them calm: After a dust storm, spend time with your pet to help them relax. Offer gentle pets and kind words.\n\nVisit the vet if needed: If your pet does not feel their best, seek medical attention.\n\nClean up any debris in your yard or property after the storm that could injure your pet.",
+      "sectionPath": "After (Recover) > For Pets",
+      "phase": "Recovery",
+      "audience": "Pets"
+    }
+  ]
+}

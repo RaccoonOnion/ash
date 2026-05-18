@@ -1,0 +1,125 @@
+{
+  "packId": "gas-leak",
+  "packName": "Gas Leak",
+  "propositions": [
+    {
+      "question": "What should I do immediately if I suspect a gas leak in my home?",
+      "answer": "If you suspect a gas leak seek emergency help immediately. DO NOT CALL FROM INSIDE THE AFFECTED AREA - call once outside. Evacuate all people and pets 350 feet (110 meters) away from the area. Leave the doors open and immediately call your local utility company's emergency number or 9-1-1 when outside.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "How far away should I evacuate during a gas leak?",
+      "answer": "Evacuate all people and pets 350 feet (110 meters) away from the area. Leave the doors open and immediately call your local utility company's emergency number or 9-1-1 when outside.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "Is it safe to turn lights on or off if I smell gas?",
+      "answer": "DO NOT turn electrical appliances or lights on or off, operate motorized equipment or vehicles, or use any device that could cause a spark. DO NOT smoke, or light a match, candle, or other flames.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "What does a gas leak smell or sound like?",
+      "answer": "Signs of a gas leak include: the smell of sulfur or rotten eggs in the air (although not all gas leaks smell), a hissing or whistling sound near a gas line, a visible white cloud or dust cloud near a gas line, bubbles in your water or bubbles in liquid on or around the pipe, a damaged gas pipe, and dead houseplants.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "What are the physical symptoms of gas exposure?",
+      "answer": "Physical symptoms of a gas leak include: breathing difficulties, dizziness, fatigue or drowsiness, feeling lightheaded, flu-like symptoms, headaches, irritation to the eyes and throat, mood changes including depression, nausea, nosebleeds, pains in the chest, pale skin or blistering following direct contact with gas, reduced appetite, and ringing in the ears.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "What are subtle signs of a gas leak I might miss?",
+      "answer": "Beyond a strong gas smell, you may notice: feeling sick, dizzy or lightheaded for no clear reason with symptoms going away when you go outside (could indicate carbon monoxide poisoning); the boiler's pilot light keeps blowing out; the pilot light or gas rings on your cooker are orange or yellow rather than crisp blue; soot or scorched areas on the exterior of your appliances; or more condensation than usual on your windows.",
+      "sectionPath": "During (React) > For Adults",
+      "phase": "Response",
+      "audience": "Adults"
+    },
+    {
+      "question": "What should I do if I'm not sure whether there's a gas leak?",
+      "answer": "1. Take note of symptoms when entering or leaving the house. Symptoms that return when entering the home may indicate a gas leak, carbon monoxide poisoning, or another air contaminant, such as mold. 2. If a mild gas smell is present, turn off the gas pilot light immediately. 3. Open all the windows. 4. Call the utility company from outside the house. They will likely have a certified inspector assess the situation.",
+      "sectionPath": "During (React) > What to do if you are unsure if there's a gas leak",
+      "phase": "Response",
+      "audience": "General"
+    },
+    {
+      "question": "How do I teach kids to respond to a gas leak?",
+      "answer": "Children should know: if you suspect a gas leak seek emergency help immediately. Do not call from inside the affected area - call once outside. Evacuate all people and pets 350 feet (110 meters) away from the area, leave the doors open, and call your local utility company's emergency number or 9-1-1 once outside. Do not smoke or light flames, and do not turn electrical appliances or lights on or off or do anything else that could cause a spark.",
+      "sectionPath": "During (React) > For Kids",
+      "phase": "Response",
+      "audience": "Kids"
+    },
+    {
+      "question": "What are signs my pet has been exposed to a gas leak?",
+      "answer": "Pet owners should take action if they see these signs: breathing difficulties, changes in mood or behavior, disorientation, lethargy, loss of appetite, sore throat, red or watering eyes, or vomiting. Very high levels of gas may cause unconsciousness or even death in pets.",
+      "sectionPath": "During (React) > For Pets",
+      "phase": "Response",
+      "audience": "Pets"
+    },
+    {
+      "question": "How can I prevent carbon monoxide poisoning at home?",
+      "answer": "Install an audible carbon monoxide alarm in your home. These are generally available from DIY stores and look similar to smoke alarms. Have them installed in an open space like a hallway. Change the batteries annually.",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "How can I prevent a natural gas leak in my house?",
+      "answer": "Gas leaks in the home are usually the result of poorly fitted, badly maintained or faulty appliances like boilers and cookers. Have your gas-using appliances installed by a professional for the safest use. Regularly check on them for signs of wear and tear, looking at the gas hose that leads into your appliance or around the seal where the pipe meets the wall or another pipe. Be cautious of old or second-hand appliances, particularly if you are moving into a new property or renting; check your rental papers for appliance maintenance.",
+      "sectionPath": "Before (Prepare) > For Adults",
+      "phase": "Preparation",
+      "audience": "Adults"
+    },
+    {
+      "question": "What does natural gas smell like and where is it found in the home?",
+      "answer": "Natural gas has no odor naturally but an odorant was added so leaks can be detected; it smells like rotten eggs. Exposure is most often via inhalation, though skin (irritant) and ingestion (if soil or drinking water is contaminated) are also possible. A grey or forest green gas meter outside the house, about the size of a backpack, will be present if there are active gas lines nearby. Natural gas runs through metal lines that may be inside or outside the home, often buried 18-24 inches in the soil.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "Where is the main gas shut-off valve usually located?",
+      "answer": "If you follow the gas line from the meter to just after it enters the home, you should find the main shut-off valve nearby. Be sure you know how to turn the gas off in an emergency before you need to.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "How do I identify a propane leak?",
+      "answer": "Propane is commonly stored in large white metal containers and can be used at home or at work to heat or fuel appliances. Like natural gas, propane is naturally odorless, but an odorant has been added that smells similar to rotten eggs, skunk spray, or spoiled meat. Exposure routes are inhalation, skin, and eyes.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "What is butane gas and why is it dangerous?",
+      "answer": "Butane gas may be found in household items such as cigarette lighters, aerosol sprays, small portable stoves, camping equipment that uses portable fuel, and industrial settings as a starting material for solvents and plastics. It is often for outdoor use because its use produces carbon monoxide, so proper ventilation is required. There is an explosive risk with butane canisters. It is a colorless gas with a faint petroleum-like odor, typically found in liquid form in canisters. The gas poses an inhalation risk, and the liquid poses a frostbite risk to skin and eyes.",
+      "sectionPath": "Before (Prepare) > For Pets",
+      "phase": "Preparation",
+      "audience": "Pets"
+    },
+    {
+      "question": "How are pets and animals commonly exposed to butane?",
+      "answer": "Common butane exposure examples for animals include dogs chewing on lighters, and wild or companion animals attempting to obtain food residue from portable camping stoves fueled by butane.",
+      "sectionPath": "Before (Prepare) > For Wildlife",
+      "phase": "Preparation",
+      "audience": "General"
+    },
+    {
+      "question": "When is it safe to return to my home after a gas leak?",
+      "answer": "You will need to let your home or building air out for at least an hour or two before it is safe to enter, as it can take this long for the gas to disappear. Never turn on any electric device or spark a flame (such as lighting a candle or cigarette) if you are in a house with a possible gas leak. The exact timeframe for natural gas to air out depends on the severity of the leak and wind conditions in your area.",
+      "sectionPath": "After (Recover)",
+      "phase": "Recovery",
+      "audience": "Adults"
+    }
+  ]
+}
