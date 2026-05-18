@@ -29,6 +29,15 @@ The fastest path is TestFlight — no Xcode, no cables, no signing.
 > Tap the link on your iPhone — iOS will prompt to install Apple's
 > TestFlight app if you don't have it, then offer the Ash beta.
 
+**Backup: direct IPA download.** If the TestFlight link is unavailable
+(rate-limited, expired, or you'd rather sideload), the signed `.ipa` is
+attached to every GitHub release —
+[**latest release**](https://github.com/RaccoonOnion/ash/releases/latest).
+The IPA is App Store-signed, so to install it directly you need to
+re-sign with your own Apple ID via [AltStore](https://altstore.io/) /
+[Sideloadly](https://sideloadly.io/) (free, 7-day refresh) or with
+your own Apple Developer cert via Xcode.
+
 If you'd rather build from source — to swap models, hack on the RAG pipeline,
 or just see how it works — see [Build & run locally](#build-and-run)
 below.
