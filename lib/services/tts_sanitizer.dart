@@ -46,8 +46,22 @@ String sanitizeForTts(String text, {bool trimEnds = true}) {
 
   // 2. Drop markdown emphasis markers but keep their content.
   //    `**bold**` → `bold`, `*italic*` → `italic`, `__under__` → `under`.
-  s = s.replaceAll(RegExp(r'\*{1,3}(.*?)\*{1,3}', dotAll: false), r'$1');
-  s = s.replaceAll(RegExp(r'_{1,3}(.*?)_{1,3}', dotAll: false), r'$1');
+  //
+  //    CRITICAL: must use `replaceAllMapped` (callback) — Dart's
+  //    `replaceAll(Pattern, String)` does NOT interpret `$1` as a
+  //    backreference. Passing `r'$1'` literally substitutes the
+  //    two-character string `$1`, which AVSpeechSynthesizer then reads
+  //    aloud as "one dollar" — and the original bold content is lost.
+  //    Symptom: live mode would speak "one dollar Tap the person…"
+  //    instead of "Check for Responsiveness: Tap the person…".
+  s = s.replaceAllMapped(
+    RegExp(r'\*{1,3}(.*?)\*{1,3}', dotAll: false),
+    (m) => m.group(1) ?? '',
+  );
+  s = s.replaceAllMapped(
+    RegExp(r'_{1,3}(.*?)_{1,3}', dotAll: false),
+    (m) => m.group(1) ?? '',
+  );
 
   // 3. Strip heading hashes — `#### Title` → `Title`.
   s = s.replaceAll(RegExp(r'^\s*#{1,6}\s+', multiLine: true), '');
