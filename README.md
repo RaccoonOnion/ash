@@ -22,7 +22,7 @@ The fastest path is TestFlight — no Xcode, no cables, no signing.
 > (~1.4 GB for E2B or ~3.7 GB for E4B on first launch).
 
 If you'd rather build from source — to swap models, hack on the RAG pipeline,
-or just see how it works — see [Build & run locally](#-build--run-locally)
+or just see how it works — see [Build & run locally](#build-and-run)
 below.
 
 ---
@@ -153,10 +153,11 @@ supporting models / indexes:
 The LLM **inference engine** is LiteRT-LM, Google AI Edge's mobile runtime
 for `.litertlm` files. Default backend is **Metal (GPU)** for thermals and
 speed; CPU is the fallback when the GPU delegate misbehaves on the vision
-encoder. See [`ASH_TECHNICAL_DOC.md`](ASH_TECHNICAL_DOC.md) (internal) for
-the GPU rebuild / SIGSEGV workaround and the rest of the gory details.
+encoder.
 
 ---
+
+<a id="build-and-run"></a>
 
 ## 🛠️ Build & run locally
 
@@ -346,9 +347,10 @@ the public `litert-community` HuggingFace mirror.
   L2-normalized, 384-dim — perfect for on-device RAG.
 - **[ObjectBox](https://objectbox.io/)** — embedded vector DB with
   on-device HNSW.
-- **[Project N.O.M.A.D.](https://github.com/Tearran/nomad-mvp)** — content
-  taxonomy + offline-knowledge architecture inspiration. Nomad is a
-  Debian-based self-hosted offline knowledge server; Ash borrows its
+- **[Project N.O.M.A.D.](https://github.com/Crosstalk-Solutions/project-nomad)**
+  — content taxonomy + offline-knowledge architecture inspiration. Nomad is
+  a Debian-based self-hosted offline knowledge server (AI chat, offline
+  Wikipedia, maps, education) by Crosstalk Solutions; Ash borrows its
   curated-survival-content model and bends it to fit a single iPhone.
 - **[HazAdapt](https://hazadapt.com/)** — primary scaffold for the
   emergency-response pack content (hazard taxonomy, situational
