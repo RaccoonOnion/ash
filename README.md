@@ -5,7 +5,7 @@
 **Offline survival assistant for iOS.** Gemma 4 (E2B or E4B) runs fully on-device — text, image, and voice — so it works when there's no signal.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Platform: iOS 17+](https://img.shields.io/badge/Platform-iOS%2017+-lightgrey.svg)](#)
+![Platform: iOS 17+](https://img.shields.io/badge/Platform-iOS%2017+-lightgrey.svg)
 [![Flutter](https://img.shields.io/badge/Flutter-3.6+-02569B.svg?logo=flutter)](https://flutter.dev)
 [![Gemma 4](https://img.shields.io/badge/Model-Gemma%204%20E2B%20%2F%20E4B-4285F4.svg)](https://huggingface.co/litert-community)
 
