@@ -9,9 +9,15 @@
 [![Flutter](https://img.shields.io/badge/Flutter-3.6+-02569B.svg?logo=flutter)](https://flutter.dev)
 [![Gemma 4](https://img.shields.io/badge/Model-Gemma%204%20E2B%20%2F%20E4B-4285F4.svg)](https://huggingface.co/litert-community)
 
+[TestFlight](#try-it) · [Report a bug](https://github.com/RaccoonOnion/ash/issues/new?labels=bug) · [Feature request](https://github.com/RaccoonOnion/ash/issues/new?labels=enhancement)
+
+[Features](#features) · [Architecture](#architecture) · [Models](#models) · [Build & run](#build-and-run) · [Repo layout](#repo-layout) · [Credits](#credits)
+
 </div>
 
 ---
+
+<a id="try-it"></a>
 
 ## ✈️ Try it on your phone
 
@@ -26,6 +32,8 @@ or just see how it works — see [Build & run locally](#build-and-run)
 below.
 
 ---
+
+<a id="features"></a>
 
 ## What Ash does — feature walkthrough
 
@@ -96,6 +104,8 @@ CPR pack won't bleed into adjacent first-aid material.
 
 ---
 
+<a id="architecture"></a>
+
 ## 🗺️ Architecture overview
 
 ```mermaid
@@ -134,6 +144,8 @@ flowchart TD
     class gemma,stt,tts,hnsw,embed external;
     class infsvc,composer,live,library core;
 ```
+
+<a id="models"></a>
 
 ### Models and runtimes
 
@@ -261,6 +273,8 @@ for the full publishing walkthrough.
 
 ---
 
+<a id="repo-layout"></a>
+
 ## 📁 Repo layout
 
 ```
@@ -334,6 +348,8 @@ of Google LLC.** Gemma 4 is released under the
 [Gemma Terms of Use](https://ai.google.dev/gemma/terms). Model weights are
 not redistributed by this repo — Ash downloads them at first launch from
 the public `litert-community` HuggingFace mirror.
+
+<a id="credits"></a>
 
 ### Credits
 
