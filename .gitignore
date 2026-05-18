@@ -59,3 +59,10 @@ devtools_options.yaml
 
 # Python bytecode cache
 __pycache__/
+
+# Local-only working docs (test plans, internal tech doc, scratch notes).
+# These intentionally stay on disk for the dev workflow but never reach
+# either the internal yaoxiao6/Ash remote or the public RaccoonOnion/ash
+# submission.
+TEST_PLAN*.md
+ASH_TECHNICAL_DOC.md
