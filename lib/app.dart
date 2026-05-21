@@ -1158,9 +1158,12 @@ class _AshAppState extends State<AshApp> {
       _chatId = null;
       _reconfigureStatus = null;
     });
-    // Free GPU/Metal resources so the device stops heating up between chats.
-    // The next chat entry will trigger a cheap (~5s) text-only re-warm.
-    widget.service.closeEngine();
+    // Drop the chat KV but keep the engine warm. LiteRT-LM has a state-leak
+    // bug where destroying an engine that has served a vision query corrupts
+    // the runtime, and every subsequent `litert_lm_engine_create` in the same
+    // process returns null in ~200ms regardless of backend. Skipping the
+    // engine destroy avoids the trap and also makes chat switching instant.
+    widget.service.resetChatSession();
   }
 
   void _handleDeleteChat(String id) {
@@ -1169,7 +1172,7 @@ class _AshAppState extends State<AshApp> {
       _chats = _chats.where((c) => c.id != id).toList();
       if (wasActive) _chatId = null;
     });
-    if (wasActive) widget.service.closeEngine();
+    if (wasActive) widget.service.resetChatSession();
   }
 
   void _handleRenameChat(String id, String newTitle) {

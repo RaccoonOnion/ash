@@ -67,7 +67,19 @@ done
 
 echo ""
 echo "=== Re-signing Runner.app ==="
-codesign --force --sign "$SIGNING_IDENTITY" --timestamp=none --generate-entitlement-der "$APP"
+# Without an explicit --entitlements plist, the resign drops the app's
+# memory entitlements (extended-virtual-addressing, increased-memory-limit).
+# Without those iOS caps Ash at ~1.5 GB and the Gemma vision encoder's
+# Metal buffer alloc fails on first use — text inference keeps working,
+# image inference dies with "Something went wrong". Caught the hard way
+# when v1.4.0+9 worked on `flutter run --release` but failed on TestFlight.
+ENTITLEMENTS_PLIST="$(mktemp -t ash-entitlements.XXXX.plist)"
+codesign -d --entitlements :- "$APP" > "$ENTITLEMENTS_PLIST" 2>/dev/null
+codesign --force --sign "$SIGNING_IDENTITY" --timestamp=none \
+  --generate-entitlement-der \
+  --entitlements "$ENTITLEMENTS_PLIST" \
+  "$APP"
+rm -f "$ENTITLEMENTS_PLIST"
 
 echo ""
 echo "=== Re-exporting IPA ==="

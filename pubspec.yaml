@@ -1,7 +1,7 @@
 name: ash
 description: Ash — offline survival assistant with on-device AI
 publish_to: 'none'
-version: 1.4.0+8
+version: 1.4.0+10
 
 environment:
   sdk: ^3.6.0
