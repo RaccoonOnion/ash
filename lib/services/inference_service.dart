@@ -79,8 +79,11 @@ class MessageSource {
   /// Shown to the user when they tap the chip.
   final String text;
 
-  /// Cosine distance from the query embedding. Lower is a closer match.
-  /// Surface as a soft confidence hint in the chip detail sheet.
+  /// Retrieval score for this chunk. After hybrid retrieval (vector + BM25
+  /// fused via Reciprocal Rank Fusion), this is an RRF score where higher is
+  /// a better match. In vector-only mode (pre-hybrid), this was cosine
+  /// distance where lower was better. The UI does not display the numeric
+  /// value — it's used only for sorting and debug logging.
   final double score;
 }
 
@@ -233,6 +236,7 @@ abstract interface class InferenceService {
     Uint8List? imageBytes,
     List<HistoryTurn> priorHistory = const [],
     InferenceSettings settings = InferenceSettings.defaults,
+
     /// When true, the service swaps in a voice-tuned system prompt that
     /// tells the model to reply in plain prose: no markdown, no emoji,
     /// no numbered lists, 1-3 sentences. Used by [LiveVoiceScreen] so the

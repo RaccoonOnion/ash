@@ -9,6 +9,7 @@ import 'package:flutter_onnxruntime/flutter_onnxruntime.dart';
 import 'package:path_provider/path_provider.dart';
 
 import 'bert_tokenizer.dart';
+import 'bm25_search.dart';
 import 'chunk_entity.dart';
 import 'chunk_sanitizer.dart';
 import 'inference_service.dart';
@@ -18,9 +19,12 @@ import '../objectbox.g.dart';
 
 /// Simple data class for a retrieved RAG chunk.
 ///
-/// [score] is the raw HNSW cosine *distance* from ObjectBox — lower is a
-/// closer match (0 = identical for L2-normalized vectors, ~1.0 = orthogonal,
-/// ~2.0 = opposite). Use [_minScoreThreshold] in the service to filter.
+/// [score] is an RRF (Reciprocal Rank Fusion) score after hybrid retrieval —
+/// higher is a better match. Before fusion, the vector-only path used cosine
+/// distance where lower was better. The RRF score has no fixed upper bound;
+/// its magnitude depends on how many ranked lists contribute and the k
+/// constant. The list is pre-sorted descending (best first) so that
+/// [_assembleContext] can assign [1], [2] markers in order.
 class RetrievedInfo {
   const RetrievedInfo({
     required this.chunkId,
@@ -67,6 +71,14 @@ class GemmaInferenceService implements InferenceService {
   /// over-fetching is cheap (HNSW is microseconds for 384D / ~1k chunks) and
   /// gives the threshold gate something to work with.
   static const _retrieveTopK = 5;
+
+  /// BM25 candidate pool size — pulled independently of vector search and
+  /// fused via Reciprocal Rank Fusion.
+  static const _bm25CandidateK = 10;
+
+  /// RRF constant k. Higher dampens the contribution of top-ranked items.
+  /// 60 is the standard default from Cormack, Clarke & Büttcher (2009).
+  static const _rrfK = 60;
 
   /// Cosine-distance ceiling for a chunk to be considered relevant.
   /// ObjectBox returns the raw cosine distance — lower is better.
@@ -183,11 +195,17 @@ class GemmaInferenceService implements InferenceService {
   OnnxRuntime? _ort;
   OrtSession? _embeddingSession;
   BertTokenizer? _tokenizer;
+
   /// Pack scoping for retrieval. `null` = "search every installed pack"
   /// (the default for new chats). A non-empty set restricts the HNSW query
   /// to chunks whose [ChunkEntity.packId] is in the set. Updated by
   /// [setLens] whenever the active chat or its lens changes.
   Set<String>? _lensPackIds;
+
+  // BM25 sparse-retrieval index. Built lazily on first keyword search and
+  // invalidated whenever packs are imported or uninstalled.
+  final _bm25 = Bm25Search();
+  Future<void>? _bm25BuildFuture;
 
   // packId → human-readable pack name. Populated from each pack JSON's
   // top-level `packName` field at import time. Used by retrieval to label
@@ -249,9 +267,9 @@ class GemmaInferenceService implements InferenceService {
       fileType: ModelFileType.litertlm,
     )
         .fromNetwork(
-          target.url,
-          token: _blankToNull(token),
-        )
+      target.url,
+      token: _blankToNull(token),
+    )
         .withProgress((progress) {
       onProgress?.call(progress.toDouble() / 100);
     });
@@ -302,8 +320,8 @@ class GemmaInferenceService implements InferenceService {
         wantVision && settings.maxTokens < _visionMinMaxTokens
             ? _visionMinMaxTokens
             : settings.maxTokens;
-    final engineReload = _loadedModel == null ||
-        _loadedMaxTokens != targetMaxTokens;
+    final engineReload =
+        _loadedModel == null || _loadedMaxTokens != targetMaxTokens;
     final visionLoad = needsVision && !_loadedSupportsImage;
     // Session rebuild only fires when an existing session needs to be torn
     // down: chatId switched OR sampling/RAG sig changed. First-ever session
@@ -431,8 +449,8 @@ class GemmaInferenceService implements InferenceService {
       final existing = _visionSwapCompleter;
       if (existing != null) return existing.future;
     }
-    final completer = isVisionLoad ? (_visionSwapCompleter = Completer<void>())
-                                    : null;
+    final completer =
+        isVisionLoad ? (_visionSwapCompleter = Completer<void>()) : null;
     try {
       debugPrint('[ash] engine rebuild: '
           'wantVision=$wantVision maxTok=$targetMaxTokens '
@@ -697,19 +715,21 @@ class GemmaInferenceService implements InferenceService {
           debugPrint('[ash] Embedding failed: $e');
           queryEmbedding = [];
         }
-        var retrieved = queryEmbedding.isNotEmpty
-            ? await _retrieve(queryEmbedding, _retrieveTopK)
-            : <RetrievedInfo>[];
+        var hybrid = queryEmbedding.isNotEmpty
+            ? await _retrieveHybrid(queryEmbedding, prompt, _retrieveTopK)
+            : (chunks: <RetrievedInfo>[], bestVectorScore: null);
+        var retrieved = hybrid.chunks;
+        final pass1VectorScore = hybrid.bestVectorScore;
         debugPrint('[ash] pass-1 retrieved ${retrieved.length} chunks '
-            '(top score: '
-            '${retrieved.isEmpty ? 'n/a' : retrieved.first.score.toStringAsFixed(3)})');
+            '(top vector score: '
+            '${pass1VectorScore?.toStringAsFixed(3) ?? 'n/a'})');
 
         // Pass 2 (adaptive): if pass 1 was weak (no chunks, or top
-        // chunk's distance is > _rewriteTriggerScore meaning it's a
+        // chunk's cosine distance is > _rewriteTriggerScore meaning it's a
         // sentence-structure match more than a topic match), ask Gemma
         // to rewrite the query into a search-ready question, then
         // retrieve again with that. Keep whichever pass got the better
-        // top score.
+        // vector score.
         //
         // Skip the rewriter for live (voice) mode. Spoken queries are
         // already verbose enough to retrieve well on the first pass,
@@ -719,7 +739,7 @@ class GemmaInferenceService implements InferenceService {
         // window. Net: live mode trades a marginal retrieval quality
         // gain for a much more stable audio loop.
         final weakFirstPass = retrieved.isEmpty ||
-            retrieved.first.score > _rewriteTriggerScore;
+            (pass1VectorScore ?? double.infinity) > _rewriteTriggerScore;
         if (weakFirstPass && !liveMode) {
           try {
             final rewritten = await _rewriteQueryForRetrieval(prompt);
@@ -727,17 +747,16 @@ class GemmaInferenceService implements InferenceService {
                 rewritten.trim().toLowerCase() != prompt.trim().toLowerCase()) {
               final rewEmb = await _embedQuery(rewritten);
               if (rewEmb.isNotEmpty) {
-                final retrievedRew = await _retrieve(rewEmb, _retrieveTopK);
-                final rewBest = retrievedRew.isEmpty
-                    ? double.infinity
-                    : retrievedRew.first.score;
-                final rawBest = retrieved.isEmpty
-                    ? double.infinity
-                    : retrieved.first.score;
-                if (rewBest < rawBest) {
-                  debugPrint('[ash] pass-2 improved retrieval: top score '
-                      '$rewBest (was $rawBest)');
-                  retrieved = retrievedRew;
+                final rewHybrid =
+                    await _retrieveHybrid(rewEmb, rewritten, _retrieveTopK);
+                final rewBestVector =
+                    rewHybrid.bestVectorScore ?? double.infinity;
+                final rawBestVector = pass1VectorScore ?? double.infinity;
+                if (rewBestVector < rawBestVector) {
+                  debugPrint(
+                      '[ash] pass-2 improved retrieval: top vector score '
+                      '$rewBestVector (was $rawBestVector)');
+                  retrieved = rewHybrid.chunks;
                 }
               }
             }
@@ -1048,6 +1067,7 @@ class GemmaInferenceService implements InferenceService {
     // Bust any cached centroid for this pack so the next rank call
     // recomputes against the freshly-installed chunks.
     _packCentroids.remove(packId);
+    _bm25.invalidate();
     try {
       final data = jsonDecode(jsonStr) as Map<String, dynamic>;
       final packName = data['packName'] as String?;
@@ -1234,14 +1254,14 @@ class GemmaInferenceService implements InferenceService {
   Future<void> uninstallPack(String packId) async {
     await _ensureDb();
 
-    final query =
-        _box!.query(ChunkEntity_.packId.equals(packId)).build();
+    final query = _box!.query(ChunkEntity_.packId.equals(packId)).build();
     final count = query.remove();
     query.close();
     // Centroid for this pack is no longer valid — drop it so the next
     // rank call either recomputes (if the pack is reinstalled) or falls
     // back to the text-embedding path.
     _packCentroids.remove(packId);
+    _bm25.invalidate();
     debugPrint('[ash] Uninstalled pack $packId: removed $count chunks');
   }
 
@@ -1285,10 +1305,8 @@ class GemmaInferenceService implements InferenceService {
           _packIdToName[packId] = packName;
         }
         // Skip if already imported
-        final existing = _box!
-            .query(ChunkEntity_.packId.equals(packId))
-            .build()
-            .count();
+        final existing =
+            _box!.query(ChunkEntity_.packId.equals(packId)).build().count();
         if (existing > 0) {
           debugPrint('[ash] Pack $packId already imported, skipping');
           continue;
@@ -1348,14 +1366,44 @@ class GemmaInferenceService implements InferenceService {
   /// toward survival topics. Fast path returns the raw prompt without
   /// any Gemma round-trip.
   static const _nonSubstantiveQueries = <String>{
-    'hi', 'hello', 'hey', 'howdy', 'yo', 'sup',
-    'thanks', 'thank you', 'thx', 'ty', 'cheers',
-    'bye', 'goodbye', 'see ya', 'later',
-    'ok', 'okay', 'k', 'sure', 'alright',
-    'yes', 'yeah', 'yep', 'no', 'nope', 'maybe',
-    'cool', 'nice', 'great', 'awesome',
-    'wait', 'hold on', 'one sec',
-    'help', 'what', 'huh', '?', '??',
+    'hi',
+    'hello',
+    'hey',
+    'howdy',
+    'yo',
+    'sup',
+    'thanks',
+    'thank you',
+    'thx',
+    'ty',
+    'cheers',
+    'bye',
+    'goodbye',
+    'see ya',
+    'later',
+    'ok',
+    'okay',
+    'k',
+    'sure',
+    'alright',
+    'yes',
+    'yeah',
+    'yep',
+    'no',
+    'nope',
+    'maybe',
+    'cool',
+    'nice',
+    'great',
+    'awesome',
+    'wait',
+    'hold on',
+    'one sec',
+    'help',
+    'what',
+    'huh',
+    '?',
+    '??',
   };
 
   bool _isNonSubstantive(String prompt) {
@@ -1446,9 +1494,7 @@ class GemmaInferenceService implements InferenceService {
       // observed once), TimeoutException propagates up to the catch
       // block and the caller falls back to the raw query path. Without
       // this guard a stuck rewriter blocks every subsequent user turn.
-      await rewriterChat
-          .generateChatResponseAsync()
-          .forEach((r) {
+      await rewriterChat.generateChatResponseAsync().forEach((r) {
         if (r is TextResponse) {
           final token = r.token;
           // Drop turn-marker fragments the SDK occasionally leaks.
@@ -1530,8 +1576,7 @@ class GemmaInferenceService implements InferenceService {
 
       outputTensor = outputs['last_hidden_state'];
 
-      final flatFloats =
-          (await outputTensor!.asFlattenedList()).cast<double>();
+      final flatFloats = (await outputTensor!.asFlattenedList()).cast<double>();
 
       // Mean pooling over token dimension.
       // Output shape: [1, seq_len, 384]
@@ -1573,7 +1618,7 @@ class GemmaInferenceService implements InferenceService {
 
   // --- Retrieval ---
 
-  Future<List<RetrievedInfo>> _retrieve(
+  Future<List<RetrievedInfo>> _retrieveVector(
     List<double> queryEmbedding,
     int topK,
   ) async {
@@ -1631,12 +1676,167 @@ class GemmaInferenceService implements InferenceService {
           source: r.object.source,
           sourceType: r.object.sourceType,
           packId: r.object.packId,
-          packName:
-              _packIdToName[r.object.packId] ?? _humanizePackId(r.object.packId),
+          packName: _packIdToName[r.object.packId] ??
+              _humanizePackId(r.object.packId),
           sectionPath: r.object.sectionPath,
           score: r.score,
         ),
     ];
+  }
+
+  /// Ensure the BM25 index is built. Reads all chunks from ObjectBox and
+  /// hands them to [Bm25Search.buildIndex]. Guarded by [_bm25BuildFuture]
+  /// to prevent concurrent builds.
+  Future<void> _ensureBm25Index() async {
+    if (_bm25.isBuilt) return;
+    if (_bm25BuildFuture != null) {
+      await _bm25BuildFuture;
+      return;
+    }
+    _bm25BuildFuture = _doBuildBm25Index();
+    try {
+      await _bm25BuildFuture;
+    } finally {
+      _bm25BuildFuture = null;
+    }
+  }
+
+  Future<void> _doBuildBm25Index() async {
+    await _ensureDb();
+    if (_box == null || _box!.count() == 0) return;
+
+    final all = _box!.getAll();
+    _bm25.buildIndex([
+      for (final c in all) (chunkId: c.chunkId, text: c.text, packId: c.packId),
+    ]);
+    debugPrint('[ash] BM25 index built: ${all.length} documents');
+  }
+
+  /// Keyword search via BM25. Returns hydrated [RetrievedInfo] list sorted
+  /// by BM25 score descending (higher = better match).
+  Future<List<RetrievedInfo>> _retrieveBM25(
+    String queryText,
+    int topK,
+  ) async {
+    await _ensureBm25Index();
+    if (!_bm25.isBuilt) return [];
+
+    final hits = _bm25.search(queryText, topK: topK, packIds: _lensPackIds);
+    if (hits.isEmpty) return [];
+
+    // Hydrate chunkIds → full ChunkEntity in a single ObjectBox query.
+    final ids = hits.map((h) => h.chunkId).toList();
+    final qb = _box!.query(ChunkEntity_.chunkId.oneOf(ids)).build();
+    final entities = {for (final e in qb.find()) e.chunkId: e};
+    qb.close();
+
+    // Preserve BM25 ranking order and attach scores.
+    return [
+      for (final h in hits)
+        if (entities.containsKey(h.chunkId))
+          RetrievedInfo(
+            chunkId: h.chunkId,
+            text: entities[h.chunkId]!.text,
+            source: entities[h.chunkId]!.source,
+            sourceType: entities[h.chunkId]!.sourceType,
+            packId: entities[h.chunkId]!.packId,
+            packName: _packIdToName[entities[h.chunkId]!.packId] ??
+                _humanizePackId(entities[h.chunkId]!.packId),
+            sectionPath: entities[h.chunkId]!.sectionPath,
+            score: h.score,
+          ),
+    ];
+  }
+
+  /// Merge vector and BM25 result lists using Reciprocal Rank Fusion.
+  ///
+  /// Each chunk's RRF score is `sum(1/(k + rank))` from each list where it
+  /// appears. Results are sorted descending by RRF score (higher = better).
+  List<RetrievedInfo> _fuseWithRrf(
+    List<RetrievedInfo> vectorResults,
+    List<RetrievedInfo> bm25Results,
+    int topK,
+  ) {
+    // Build chunkId → rank maps (1-based).
+    final vectorRanks = <String, int>{};
+    for (var i = 0; i < vectorResults.length; i++) {
+      vectorRanks[vectorResults[i].chunkId] = i + 1;
+    }
+    final bm25Ranks = <String, int>{};
+    for (var i = 0; i < bm25Results.length; i++) {
+      bm25Ranks[bm25Results[i].chunkId] = i + 1;
+    }
+
+    // Collect all unique chunk IDs.
+    final allIds = <String>{...vectorRanks.keys, ...bm25Ranks.keys};
+
+    // Build lookup by chunkId for both result lists.
+    final byId = <String, RetrievedInfo>{};
+    for (final r in vectorResults) {
+      byId[r.chunkId] = r;
+    }
+    for (final r in bm25Results) {
+      // BM25 result may carry a better-matched chunk the vector search missed.
+      byId.putIfAbsent(r.chunkId, () => r);
+    }
+
+    // Compute RRF scores.
+    final scored = <({String chunkId, double rrf})>[];
+    for (final id in allIds) {
+      var rrf = 0.0;
+      if (vectorRanks.containsKey(id)) {
+        rrf += 1.0 / (_rrfK + vectorRanks[id]!);
+      }
+      if (bm25Ranks.containsKey(id)) {
+        rrf += 1.0 / (_rrfK + bm25Ranks[id]!);
+      }
+      scored.add((chunkId: id, rrf: rrf));
+    }
+
+    // Sort descending by RRF score.
+    scored.sort((a, b) => b.rrf.compareTo(a.rrf));
+
+    // Take top-K and return RetrievedInfo with RRF score.
+    return [
+      for (final s in scored.take(topK))
+        RetrievedInfo(
+          chunkId: s.chunkId,
+          text: byId[s.chunkId]!.text,
+          source: byId[s.chunkId]!.source,
+          sourceType: byId[s.chunkId]!.sourceType,
+          packId: byId[s.chunkId]!.packId,
+          packName: byId[s.chunkId]!.packName,
+          sectionPath: byId[s.chunkId]!.sectionPath,
+          score: s.rrf,
+        ),
+    ];
+  }
+
+  /// Hybrid retrieval: vector (cosine) + BM25 (keyword) → RRF fusion.
+  ///
+  /// Returns the fused result list and the best cosine distance from the
+  /// vector pass (used by the adaptive rewrite trigger). The fused list's
+  /// scores are RRF scores (higher = better), while [bestVectorScore] is
+  /// cosine distance (lower = better).
+  Future<({List<RetrievedInfo> chunks, double? bestVectorScore})>
+      _retrieveHybrid(
+    List<double> queryEmbedding,
+    String queryText,
+    int topK,
+  ) async {
+    // Vector pass — threshold-filtered cosine results.
+    final vectorResults = await _retrieveVector(queryEmbedding, _retrieveTopK);
+    final bestVectorScore =
+        vectorResults.isEmpty ? null : vectorResults.first.score;
+
+    // BM25 pass — keyword results.
+    final bm25Results = await _retrieveBM25(queryText, _bm25CandidateK);
+    debugPrint('[ash] hybrid retrieval: ${vectorResults.length} vector, '
+        '${bm25Results.length} BM25 candidates');
+
+    // Fuse and return.
+    final fused = _fuseWithRrf(vectorResults, bm25Results, topK);
+    return (chunks: fused, bestVectorScore: bestVectorScore);
   }
 
   /// Fallback display name when we don't have a cached packName for a
@@ -1842,7 +2042,6 @@ class GemmaInferenceService implements InferenceService {
     if (token.isEmpty) return false;
     return !_specialTokenRegex.hasMatch(token.trim());
   }
-
 
   // --- LLM helpers ---
 
