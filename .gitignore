@@ -67,3 +67,7 @@ __pycache__/
 TEST_PLAN*.md
 ASH_TECHNICAL_DOC.md
 APP_REVIEW_FORM*.md
+
+# Update via script in ios/configure_identity.sh
+ios/Runner.xcodeproj/project.pbxproj
+project.pbxproj
