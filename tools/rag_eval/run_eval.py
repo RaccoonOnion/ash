@@ -118,9 +118,13 @@ def run_evaluation(args):
     }
 
     # Save results
-    results_dir.mkdir(parents=True, exist_ok=True)
-    ts = datetime.now().strftime("%Y-%m-%dT%H%M%S")
-    results_path = results_dir / f"{ts}.json"
+    if args.output:
+        results_path = (project_root / args.output).resolve()
+    else:
+        results_dir.mkdir(parents=True, exist_ok=True)
+        ts = datetime.now().strftime("%Y-%m-%dT%H%M%S")
+        results_path = results_dir / f"{ts}.json"
+    results_path.parent.mkdir(parents=True, exist_ok=True)
     with open(results_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
@@ -227,6 +231,11 @@ def main():
     parser.add_argument(
         "--filter-pack", type=str, default=None,
         help="Evaluate only queries from this pack (for smoke testing)"
+    )
+    parser.add_argument(
+        "--output", type=str, default=None,
+        help="Output JSON path (relative to project root). If omitted, writes a "
+             "timestamped file to benchmark/results/."
     )
     args = parser.parse_args()
     run_evaluation(args)
